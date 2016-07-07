@@ -1,4 +1,6 @@
-// SkinMan.cpp : アプリケーションのエントリ ポイントを定義します。
+// SkinMan.cpp : Application Main
+//
+//  Copyright (c) 2007-2016 g200kg
 //
 #include "stdafx.h"
 
@@ -69,13 +71,13 @@ int _fastcall GetLuminance(DWORD dw);
 
 void CopyCoodinate(void);
 
-// グローバル変数 :
+// Globals
 HWND hwndSplash;
 HWND hwndMain;
 wchar_t strInstanceID[16];
-HINSTANCE hinstMain;							// 現在のインターフェイス
-TCHAR szTitle[MAX_LOADSTRING];					// タイトル バーのテキスト
-TCHAR szWindowClass[MAX_LOADSTRING];			// メイン ウィンドウ クラス名
+HINSTANCE hinstMain;							// Current instance
+TCHAR szTitle[MAX_LOADSTRING];					// Titlebar text
+TCHAR szWindowClass[MAX_LOADSTRING];			// Main window class
 GdiplusStartupInput gdiSI;
 ULONG_PTR           gdiToken;
 HCURSOR hcurArrow;
@@ -118,12 +120,13 @@ COLORREF colCust[24]={
 
 char *strTemplete="<OBJ>\\t%X,%Y,%W,%H,%NAME,\"%FILE\"\\r\\n</OBJ>";
 
-// このコード モジュールに含まれる関数の宣言を転送します :
+// Functions
 void Open(wchar_t *str,int iMode,bool bAsChild,bool bRec,int iRefresh);
 ATOM				MyRegisterClass(HINSTANCE hInstance);
 BOOL				InitInstance(HINSTANCE, wchar_t *strCmdLine, int);
 LRESULT CALLBACK	WndProc(HWND, UINT, WPARAM, LPARAM);
 LRESULT CALLBACK	About(HWND, UINT, WPARAM, LPARAM);
+
 void Group(int iRefresh=1);
 void UnGroup(int iRefresh=1);
 float wstrtofloat(wchar_t *wstr,wchar_t **pwstr);
@@ -2129,7 +2132,7 @@ float wstrtofloat(wchar_t *wstr,wchar_t **pwstr) {
 		return -fVal;
 	return fVal;
 }
-//変更チェック付きEditControl
+//EditControl with modify check
 typedef enum {Int,Float2,Float3,Text} ParamType;
 class DoubleEdit {
 public:
@@ -2274,9 +2277,9 @@ public:
 		DeleteObject((HGDIOBJ)hbr);
 	}
 };
-//Spinコントロールをサブクラス化するクラス
-//　　Spinコントロールを指定してnewするとスライダー型のコントロールにサブクラス化
-//　　コントロールの破棄時に自動的に自分も消滅する
+// Spin contorl subclass
+//   make slider style control from existing spin control.
+//   destroy itself when the base control is destroyed.
 class Slider {
 public:
 	WNDPROC wndprocOrg;
@@ -6835,7 +6838,7 @@ LRESULT CALLBACK Screen::wndproc(HWND hwnd,UINT message,WPARAM wparam,LPARAM lpa
 					theTree->Select1(NULL);
 				Primitive *pr,*pr1;
 				RectF rcf(min(xCur1,xCur2),min(yCur1,yCur2),abs(xCur2-xCur1),abs(yCur2-yCur1));
-				rcf.Inflate(.1f,.1f);	// 誤差のあるオブジェクトを範囲選択できるように
+				rcf.Inflate(.1f,.1f);	// This is needed for select objects that has some position error.
 				pr1=NULL;
 				for(pr=theTree->GetFirst();pr;pr=theTree->GetNext(pr)) {
 					if(pr->IsLock()==0 && rcf.Contains(pr->rcOutline)) {
