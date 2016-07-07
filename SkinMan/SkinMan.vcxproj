@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{217222A9-B671-47D9-B166-D5024281611E}</ProjectGuid>
+    <RootNamespace>SkinMan</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.21005.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="APIDebug.cpp" />
+    <ClCompile Include="SkinMan.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="utils.cpp" />
+    <ClCompile Include="XFont.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SkinMan.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="align-horz-center.bmp" />
+    <Image Include="align-horz-left.bmp" />
+    <Image Include="align-horz-right.bmp" />
+    <Image Include="align-vert-bottom.bmp" />
+    <Image Include="align-vert-center.bmp" />
+    <Image Include="align-vert-top.bmp" />
+    <Image Include="bevel.bmp" />
+    <Image Include="cmdgroup.ico" />
+    <Image Include="cmdungroup.ico" />
+    <Image Include="copy.bmp" />
+    <Image Include="dispcolor.ico" />
+    <Image Include="dispprop.ico" />
+    <Image Include="disptree.ico" />
+    <Image Include="dist_horz_center.bmp" />
+    <Image Include="dist_horz_left.bmp" />
+    <Image Include="dist_horz_right.bmp" />
+    <Image Include="dist_vert_bottom.bmp" />
+    <Image Include="dist_vert_center.bmp" />
+    <Image Include="dist_vert_top.bmp" />
+    <Image Include="down.ico" />
+    <Image Include="eazel.bmp" />
+    <Image Include="exportimage.bmp" />
+    <Image Include="filenew.bmp" />
+    <Image Include="fileopen.bmp" />
+    <Image Include="filesave.bmp" />
+    <Image Include="flatcap.bmp" />
+    <Image Include="gradate.ico" />
+    <Image Include="gridenable.ico" />
+    <Image Include="gridvisible.ico" />
+    <Image Include="handmove.ico" />
+    <Image Include="ico00001.ico" />
+    <Image Include="ico00002.ico" />
+    <Image Include="ico00003.ico" />
+    <Image Include="ico00004.ico" />
+    <Image Include="icon1.ico" />
+    <Image Include="itemelli.ico" />
+    <Image Include="itemellipse.ico" />
+    <Image Include="itemellipse_s.ico" />
+    <Image Include="itemgrou.ico" />
+    <Image Include="itemgroup.ico" />
+    <Image Include="itemgroup_s.ico" />
+    <Image Include="itemimag.ico" />
+    <Image Include="itemimage.ico" />
+    <Image Include="itemimage_s.ico" />
+    <Image Include="itemline.ico" />
+    <Image Include="itemlines.ico" />
+    <Image Include="itemlines_s.ico" />
+    <Image Include="itempoly.ico" />
+    <Image Include="itempolygon.ico" />
+    <Image Include="itempolygon_s.ico" />
+    <Image Include="itemrect.ico" />
+    <Image Include="itemrect_s.ico" />
+    <Image Include="itemshap.ico" />
+    <Image Include="itemshape.ico" />
+    <Image Include="itemshape_s.ico" />
+    <Image Include="itemtext.ico" />
+    <Image Include="itemtext_s.ico" />
+    <Image Include="lock0.ico" />
+    <Image Include="lock1.ico" />
+    <Image Include="mirrorh.bmp" />
+    <Image Include="mirrorv.bmp" />
+    <Image Include="miter.bmp" />
+    <Image Include="parent.ico" />
+    <Image Include="pipette.ico" />
+    <Image Include="redo.bmp" />
+    <Image Include="round.bmp" />
+    <Image Include="roundcap.bmp" />
+    <Image Include="shapeedit.bmp" />
+    <Image Include="SkinMan.ico" />
+    <Image Include="skinman1.ico" />
+    <Image Include="small.ico" />
+    <Image Include="squarecap.bmp" />
+    <Image Include="toolarrow.bmp" />
+    <Image Include="toolcurve.bmp" />
+    <Image Include="toolellipse.bmp" />
+    <Image Include="toolgradation.bmp" />
+    <Image Include="toolhand.bmp" />
+    <Image Include="toolinsertimage.bmp" />
+    <Image Include="toolinsertnewknob.bmp" />
+    <Image Include="toollines.bmp" />
+    <Image Include="toolpolygon.bmp" />
+    <Image Include="toolrect.bmp" />
+    <Image Include="toolshape.bmp" />
+    <Image Include="tooltext.bmp" />
+    <Image Include="tooltrimming.bmp" />
+    <Image Include="trianglecap.bmp" />
+    <Image Include="trimming.ico" />
+    <Image Include="undo.bmp" />
+    <Image Include="up.ico" />
+    <Image Include="updown.ico" />
+    <Image Include="visible0.ico" />
+    <Image Include="visible1.ico" />
+    <Image Include="visiblesolo0.ico" />
+    <Image Include="visiblesolo1.ico" />
+    <Image Include="zoom1.bmp" />
+    <Image Include="zoom1.ico" />
+    <Image Include="zoomin.bmp" />
+    <Image Include="zoomin.ico" />
+    <Image Include="zoomout.bmp" />
+    <Image Include="zoomout.ico" />
+    <Image Include="zoomout1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cur00001.cur" />
+    <None Include="cur00002.cur" />
+    <None Include="cur00003.cur" />
+    <None Include="curarrow.cur" />
+    <None Include="curellipse.cur" />
+    <None Include="curgradate.cur" />
+    <None Include="curhand.cur" />
+    <None Include="curlines.cur" />
+    <None Include="curmove.cur" />
+    <None Include="curnesw.cur" />
+    <None Include="curnwse.cur" />
+    <None Include="curpipette.cur" />
+    <None Include="curpolygon.cur" />
+    <None Include="currect.cur" />
+    <None Include="curshapeclose.cur" />
+    <None Include="curshapeedit.cur" />
+    <None Include="cursorarrowplus.cur" />
+    <None Include="cursorsh.cur" />
+    <None Include="curtext.cur" />
+    <None Include="trimming.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SkinMan.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Release\Language\1033.txt" />
+    <Text Include="..\Release\Language\1041.txt" />
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

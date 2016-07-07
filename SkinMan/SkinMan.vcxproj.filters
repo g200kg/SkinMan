@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="APIDebug.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinMan.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="XFont.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinMan.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="align-horz-center.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="align-horz-left.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="align-horz-right.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="align-vert-bottom.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="align-vert-center.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="align-vert-top.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="bevel.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="cmdgroup.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="cmdungroup.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="copy.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="dispcolor.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="dispprop.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="disptree.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="dist_horz_center.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="dist_horz_left.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="dist_horz_right.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="dist_vert_bottom.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="dist_vert_center.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="dist_vert_top.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="down.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="eazel.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="exportimage.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="filenew.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="fileopen.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="filesave.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="flatcap.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="gradate.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="gridenable.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="gridvisible.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="handmove.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="ico00001.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="ico00002.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="ico00003.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="ico00004.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="icon1.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="itemelli.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="itemellipse.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="itemellipse_s.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="itemgrou.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="itemgroup.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="itemgroup_s.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="itemimag.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="itemimage.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="itemimage_s.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="itemline.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="itemlines.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="itemlines_s.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="itempoly.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="itempolygon.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="itempolygon_s.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="itemrect.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="itemrect_s.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="itemshap.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="itemshape.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="itemshape_s.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="itemtext.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="itemtext_s.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="lock0.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="lock1.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="mirrorh.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="mirrorv.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="miter.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="parent.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="pipette.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="redo.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="round.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="roundcap.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="shapeedit.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="SkinMan.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="skinman1.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="squarecap.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="toolarrow.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="toolcurve.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="toolellipse.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="toolgradation.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="toolhand.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="toolinsertimage.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="toolinsertnewknob.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="toollines.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="toolpolygon.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="toolrect.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="toolshape.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="tooltext.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="tooltrimming.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="trianglecap.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="trimming.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="undo.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="up.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="updown.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="visible0.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="visible1.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="visiblesolo0.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="visiblesolo1.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="zoom1.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="zoom1.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="zoomin.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="zoomin.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="zoomout.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="zoomout.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="zoomout1.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cur00001.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="cur00002.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="cur00003.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="curarrow.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="curellipse.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="curgradate.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="curhand.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="curlines.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="curmove.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="curnesw.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="curnwse.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="curpipette.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="curpolygon.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="currect.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="curshapeclose.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="curshapeedit.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="cursorarrowplus.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="cursorsh.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="curtext.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="trimming.cur">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SkinMan.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Release\Language\1033.txt" />
+    <Text Include="..\Release\Language\1041.txt" />
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

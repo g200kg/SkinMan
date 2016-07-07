@@ -1,0 +1,1992 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// “ú–{Œê resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_REDO                BITMAP                  "redo.bmp"
+IDB_UNDO                BITMAP                  "undo.bmp"
+IDB_MITER               BITMAP                  "miter.bmp"
+IDB_BEVEL               BITMAP                  "bevel.bmp"
+IDB_ROUND               BITMAP                  "round.bmp"
+IDB_FLATCAP             BITMAP                  "flatcap.bmp"
+IDB_ROUNDCAP            BITMAP                  "roundcap.bmp"
+IDB_SQUARECAP           BITMAP                  "squarecap.bmp"
+IDB_TRIANGLECAP         BITMAP                  "trianglecap.bmp"
+IDB_ALIGN_HORZ_LEFT     BITMAP                  "align-horz-left.bmp"
+IDB_ALIGN_HORZ_CENTER   BITMAP                  "align-horz-center.bmp"
+IDB_ALIGN_HORZ_RIGHT    BITMAP                  "align-horz-right.bmp"
+IDB_ALIGN_VERT_TOP      BITMAP                  "align-vert-top.bmp"
+IDB_ALIGN_VERT_CENTER   BITMAP                  "align-vert-center.bmp"
+IDB_ALIGN_VERT_BOTTOM   BITMAP                  "align-vert-bottom.bmp"
+IDB_DIST_HORZ_LEFT      BITMAP                  "dist_horz_left.bmp"
+IDB_DIST_HORZ_RIGHT     BITMAP                  "dist_horz_right.bmp"
+IDB_DIST_HORZ_CENTER    BITMAP                  "dist_horz_center.bmp"
+IDB_DIST_VERT_TOP       BITMAP                  "dist_vert_top.bmp"
+IDB_DIST_VERT_CENTER    BITMAP                  "dist_vert_center.bmp"
+IDB_DIST_VERT_BOTTOM    BITMAP                  "dist_vert_bottom.bmp"
+IDB_TOOLRECT            BITMAP                  "toolrect.bmp"
+IDB_TOOLELLIPSE         BITMAP                  "toolellipse.bmp"
+IDB_TOOLPOLYGON         BITMAP                  "toolpolygon.bmp"
+IDB_TOOLTEXT            BITMAP                  "tooltext.bmp"
+IDB_TOOLCURVE           BITMAP                  "toolcurve.bmp"
+IDB_TOOLSHAPE           BITMAP                  "toolshape.bmp"
+IDB_TOOLLINES           BITMAP                  "toollines.bmp"
+IDB_TOOLARROW           BITMAP                  "toolarrow.bmp"
+IDB_TOOLHAND            BITMAP                  "toolhand.bmp"
+IDB_TOOLGRADATION       BITMAP                  "toolgradation.bmp"
+IDB_TOOLTRIMMING        BITMAP                  "tooltrimming.bmp"
+IDB_TOOLINSERTIMAGE     BITMAP                  "toolinsertimage.bmp"
+IDB_TOOLINSERTNEWKNOB   BITMAP                  "toolinsertnewknob.bmp"
+IDB_MIRRORH             BITMAP                  "mirrorh.bmp"
+IDB_MIRRORV             BITMAP                  "mirrorv.bmp"
+IDB_SHAPEEDIT           BITMAP                  "shapeedit.bmp"
+IDB_EAZEL               BITMAP                  "eazel.bmp"
+IDB_ZOOM1               BITMAP                  "zoom1.bmp"
+IDB_ZOOMIN              BITMAP                  "zoomin.bmp"
+IDB_ZOOMOUT             BITMAP                  "zoomout.bmp"
+IDB_FILENEW             BITMAP                  "filenew.bmp"
+IDB_FILEOPEN            BITMAP                  "fileopen.bmp"
+IDB_EXPORTIMAGE         BITMAP                  "exportimage.bmp"
+IDB_FILESAVE            BITMAP                  "filesave.bmp"
+IDB_COPY                BITMAP                  "copy.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_SKINMAN             ICON                    "SkinMan.ico"
+IDI_CMDGROUP            ICON                    "cmdgroup.ico"
+IDI_CMDUNGROUP          ICON                    "cmdungroup.ico"
+IDI_DISPCOLOR           ICON                    "dispcolor.ico"
+IDI_DISPPROP            ICON                    "dispprop.ico"
+IDI_DISPTREE            ICON                    "disptree.ico"
+IDI_DOWN                ICON                    "down.ico"
+IDI_GRADATION           ICON                    "gradate.ico"
+IDI_GRIDENABLE          ICON                    "gridenable.ico"
+IDI_GRIDVISIBLE         ICON                    "gridvisible.ico"
+IDI_HANDMOVE            ICON                    "handmove.ico"
+IDI_ITEMRECT            ICON                    "itemrect.ico"
+IDI_ITEMELLIPSE         ICON                    "itemellipse.ico"
+IDI_ITEMPOLYGON         ICON                    "itempolygon.ico"
+IDI_ITEMTEXT            ICON                    "itemtext.ico"
+IDI_ITEMSHAPE           ICON                    "itemshape.ico"
+IDI_ITEMLINES           ICON                    "itemlines.ico"
+IDI_ITEMIMAGE           ICON                    "itemimage.ico"
+IDI_ITEMGROUP           ICON                    "itemgroup.ico"
+IDI_ITEMRECT_S          ICON                    "itemrect_s.ico"
+IDI_ITEMELLIPSE_S       ICON                    "itemellipse_s.ico"
+IDI_ITEMPOLYGON_S       ICON                    "itempolygon_s.ico"
+IDI_ITEMTEXT_S          ICON                    "itemtext_s.ico"
+IDI_ITEMSHAPE_S         ICON                    "itemshape_s.ico"
+IDI_ITEMLINES_S         ICON                    "itemlines_s.ico"
+IDI_ITEMIMAGE_S         ICON                    "itemimage_s.ico"
+IDI_ITEMGROUP_S         ICON                    "itemgroup_s.ico"
+IDI_LOCK0               ICON                    "lock0.ico"
+IDI_LOCK1               ICON                    "lock1.ico"
+IDI_PARENT              ICON                    "parent.ico"
+IDI_PIPETTE             ICON                    "pipette.ico"
+IDI_TRIMMING            ICON                    "trimming.ico"
+IDI_UP                  ICON                    "up.ico"
+IDI_UPDOWN              ICON                    "updown.ico"
+IDI_VISIBLE0            ICON                    "visible0.ico"
+IDI_VISIBLE1            ICON                    "visible1.ico"
+IDI_VISIBLESOLO0        ICON                    "visiblesolo0.ico"
+IDI_VISIBLESOLO1        ICON                    "visiblesolo1.ico"
+IDI_ZOOM1               ICON                    "zoom1.ico"
+IDI_ZOOMIN              ICON                    "zoomin.ico"
+IDI_ZOOMOUT             ICON                    "zoomout.ico"
+IDI_NOFILE              ICON                    "icon1.ico"
+IDI_ITEMRECT_H          ICON                    "ico00001.ico"
+IDI_ITEMLINES_H         ICON                    "itemline.ico"
+IDI_ITEMELLIPSE_H       ICON                    "itemelli.ico"
+IDI_ITEMGROUP_H         ICON                    "itemgrou.ico"
+IDI_ITEMIMAGE_H         ICON                    "itemimag.ico"
+IDI_ITEMPOLYGON_H       ICON                    "itempoly.ico"
+IDI_ITEMSHAPE_H         ICON                    "itemshap.ico"
+IDI_ITEMTEXT_H          ICON                    "ico00002.ico"
+IDI_SMALL               ICON                    "ico00003.ico"
+IDI_COPY                ICON                    "ico00004.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDC_SKINMAN MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save&As...",                  ID_FILE_SAVEAS
+        MENUITEM SEPARATOR
+        MENUITEM "&Import from Lib...",         ID_FILE_IMPORT
+        MENUITEM "Export to Lib...",            ID_FILE_EXPORT
+        MENUITEM SEPARATOR
+        MENUITEM "&ExportImage...",             ID_FILE_EXPORTIMAGE
+        MENUITEM SEPARATOR
+        MENUITEM "Setup...",                    ID_FILE_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "&1:",                         ID_FILE_1
+        MENUITEM "&2:",                         ID_FILE_2
+        MENUITEM "&3:",                         ID_FILE_3
+        MENUITEM "&4:",                         ID_FILE_4
+        MENUITEM "&5:",                         ID_FILE_5
+        MENUITEM "&6:",                         ID_FILE_6
+        MENUITEM "&7:",                         ID_FILE_7
+        MENUITEM "&8:",                         ID_FILE_8
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_FILE_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM "&Redo\tCtrl+Y",               ID_EDIT_REDO
+        MENUITEM SEPARATOR
+        MENUITEM "Select&All",                  ID_EDIT_SELECTALL
+        MENUITEM "Select&Visible",              ID_EDIT_SELECTVISIBLE
+        MENUITEM SEPARATOR
+        POPUP "Primitive"
+        BEGIN
+            MENUITEM "Group",                       ID_PRIMITIVE_GROUP
+            MENUITEM "UnGroup",                     ID_PRIMITIVE_UNGROUP
+            MENUITEM SEPARATOR
+            MENUITEM "Cut Primitive\tCtrl+X",       ID_PRIMITIVE_CUTPRIMITIVE
+            MENUITEM "Copy Primitive\tCtrl+C",      ID_PRIMITIVE_COPYPRIMITIVE
+            MENUITEM "Paste Primitive\tCtrl+V",     ID_PRIMITIVE_PASTEPRIMITIVE
+            MENUITEM "Delete Primitive\tDel",       ID_PRIMITIVE_DELETEPRIMITIVE
+            MENUITEM "Paste Color",                 ID_PRIMITIVE_PASTECOLOR
+            MENUITEM "Paste Effects",               ID_PRIMITIVE_PASTEEFFECTS
+            MENUITEM "Copy Coodinate",              ID_PRIMITIVE_COPYCOODINATE
+            MENUITEM SEPARATOR
+            MENUITEM "Move To Parent",              ID_PRIMITIVE_MOVETOPARENT
+            MENUITEM "Move To Foreground",          ID_PRIMITIVE_MOVETOFOREGROUND
+            MENUITEM "Move To Background",          ID_PRIMITIVE_MOVETOBACKGROUND
+            MENUITEM "Move To TopMost\tF1",         ID_PRIMITIVE_MOVETOTOPMOST
+            MENUITEM SEPARATOR
+            MENUITEM "Rename...\tF2",               ID_PRIMITIVE_RENAME
+            MENUITEM SEPARATOR
+            MENUITEM "Mirror Horizontal",           ID_PRIMITIVE_MIRRORHORIZONTAL
+            MENUITEM "Mirror Vertical",             ID_PRIMITIVE_MIRRORVERTICAL
+            MENUITEM "Transform",                   ID_PRIMITIVE_TRANSFORM
+            MENUITEM SEPARATOR
+            MENUITEM "Make Circle Path",            ID_PRIMITIVE_MAKECIRCLE
+            MENUITEM "Edit Shape/Curve",            ID_PRIMITIVE_EDITSHAPE
+            MENUITEM "Edit Image/Knob",             ID_PRIMITIVE_EDITKNOB
+            MENUITEM "Refresh Images/Knobs",        ID_PRIMITIVE_REFRESH
+            MENUITEM "Extract Images/Knobs to File", ID_PRIMITIVE_EXTRACTFILE
+            MENUITEM SEPARATOR
+            POPUP "Align"
+            BEGIN
+                MENUITEM "Align Horz Left",             ID_PRIMITIVE_ALIGNHORZL
+                MENUITEM "Align Horz Center",           ID_PRIMITIVE_ALIGNHORZC
+                MENUITEM "Align Horz Right",            ID_PRIMITIVE_ALIGNHORZR
+                MENUITEM "Align Vert Top",              ID_PRIMITIVE_ALIGNVERTT
+                MENUITEM "Align Vert Center",           ID_PRIMITIVE_ALIGNVERTC
+                MENUITEM "Align Vert Bottom",           ID_PRIMITIVE_ALIGNVERTB
+            END
+            POPUP "Distribution"
+            BEGIN
+                MENUITEM "Distribute Horz Left",        ID_PRIMITIVE_DISTRIBUTEHORZL
+                MENUITEM "Distribute Horz Center",      ID_PRIMITIVE_DISTRIBUTEHORZC
+                MENUITEM "Distribute Horz Right",       ID_PRIMITIVE_DISTRIBUTEHORZR
+                MENUITEM "Distribute Vert Top",         ID_PRIMITIVE_DISTRIBUTEVERTT
+                MENUITEM "Distribute Vert Center",      ID_PRIMITIVE_DISTRIBUTEVERTC
+                MENUITEM "Distribute Vert Bottom",      ID_PRIMITIVE_DISTRIBUTEVERTB
+            END
+        END
+    END
+    POPUP "&Display"
+    BEGIN
+        MENUITEM "Zoom&In\t+",                  ID_DISPLAY_ZOOMIN
+        MENUITEM "Zoom 1:1\t1",                 ID_DISPLAY_ZOOM1
+        MENUITEM "Zoom&Out\t-",                 ID_DISPLAY_ZOOMOUT
+        MENUITEM SEPARATOR
+        MENUITEM "&Draft",                      ID_DISPLAY_DRAFT
+        MENUITEM SEPARATOR
+        MENUITEM "&Tree\tF5",                   ID_DISPLAY_TREE
+        MENUITEM "&Properties\tF6",             ID_DISPLAY_PROPERTIES
+        MENUITEM "&Color\tF7",                  ID_DISPLAY_COLOR
+    END
+    POPUP "&Canvas"
+    BEGIN
+        MENUITEM "&Image Properties...",        ID_CANVAS_SIZE
+        MENUITEM "Triming",                     ID_CANVAS_TRIMMING
+        MENUITEM "Triming Visible",             ID_CANVAS_TRIMMINGVISIBLE
+        MENUITEM "Grid...",                     ID_CANVAS_GRID
+        MENUITEM "Background Color...",         ID_CANVAS_BACKGROUND
+        MENUITEM "Workspace Color...",          ID_CANVAS_WORKSPACE
+    END
+    POPUP "&Tool"
+    BEGIN
+        MENUITEM "&Arrow\tA",                   ID_TOOL_ARROW
+        MENUITEM "&Hand\tH",                    ID_TOOL_HAND
+        MENUITEM "&Rect\tR",                    ID_TOOL_RECT
+        MENUITEM "&Ellipse\tE",                 ID_TOOL_ELLIPSE
+        MENUITEM "&Polygon\tP",                 ID_TOOL_POLYGON
+        MENUITEM "&Text\tT",                    ID_TOOL_TEXT
+        MENUITEM "&Shape\tS",                   ID_TOOL_SHAPE
+        MENUITEM "&Curve\tC",                   ID_TOOL_CURVE
+        MENUITEM "&Lines\tL",                   ID_TOOL_LINES
+        MENUITEM "&Gradation\tG",               ID_TOOL_GRADATION
+        MENUITEM "Tri&mming\tM",                ID_TOOL_TRIMMING
+        MENUITEM SEPARATOR
+        MENUITEM "Insert &Image",               ID_TOOL_INSERTIMAGE
+        MENUITEM "Create New Knob",             ID_TOOL_INSERTNEWKNOB
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About...",                   ID_HELP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 22, 17, 230, 46
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION | WS_SYSMENU
+CAPTION "About SkinMan"
+FONT 9, "System", 0, 0, 0x0
+BEGIN
+    ICON            IDI_SKINMAN,IDC_MYICON,14,9,20,20
+    LTEXT           "SkinMan",IDC_STATIC,49,6,39,12,SS_NOPREFIX
+    LTEXT           "Version",IDC_STATIC,90,6,30,12
+    LTEXT           "0",IDC_VERSION,120,6,30,12
+    LTEXT           "Current LangID:",IDC_STATIC,49,20,100,8
+    LTEXT           "0",IDC_LANGID,150,20,100,8
+    LTEXT           "Copyright (C) 2007-2011 g200kg",IDC_STATIC,49,34,119,8
+    DEFPUSHBUTTON   "OK",IDOK,193,11,30,11,WS_GROUP
+END
+
+IDD_CANVASSIZE DIALOGEX 0, 0, 232, 87
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Image Properties"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,174,6,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,174,23,50,14
+    EDITTEXT        IDC_WIDTH,42,12,48,12,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_HEIGHT,42,30,48,12,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "Width:",IDC_STATIC,6,12,30,12,SS_CENTERIMAGE
+    CTEXT           "Height:",IDC_STATIC,6,30,30,12,SS_CENTERIMAGE
+    CTEXT           "Frames:",IDC_STATIC,6,66,30,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_FRAMESX,42,66,48,12,ES_CENTER | ES_AUTOHSCROLL
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,6,48,161,1
+    EDITTEXT        IDC_FRAMESY,102,66,48,12,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "X",IDC_STATIC,42,54,48,8,SS_CENTERIMAGE
+    CTEXT           "Y",IDC_STATIC,102,54,48,8,SS_CENTERIMAGE
+END
+
+IDD_CMDBAR DIALOGEX 0, 0, 335, 30
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "+",IDC_ZOOMIN,144,3,18,18,BS_ICON
+    PUSHBUTTON      "1:1",IDC_ZOOM1,126,3,18,18,BS_ICON
+    PUSHBUTTON      "-",IDC_ZOOMOUT,108,3,18,18,BS_ICON,WS_EX_TRANSPARENT
+    CONTROL         "VG",IDC_GRIDVISIBLE,"Button",BS_AUTOCHECKBOX | BS_ICON | BS_PUSHLIKE | WS_TABSTOP,168,3,18,18
+    CONTROL         "EG",IDC_GRIDENABLE,"Button",BS_AUTOCHECKBOX | BS_ICON | BS_PUSHLIKE | WS_TABSTOP,186,3,18,18
+    PUSHBUTTON      "",IDC_PARENT,3,3,18,18,BS_ICON
+    PUSHBUTTON      "Button1",IDC_UP,21,3,18,18,BS_ICON
+    PUSHBUTTON      "",IDC_DOWN,39,3,18,18,BS_ICON
+    PUSHBUTTON      "U",IDC_UNDO,66,3,18,18,BS_BITMAP
+    PUSHBUTTON      "R",IDC_REDO,84,3,18,18,BS_BITMAP
+    CONTROL         "DT",IDC_DISPTREE,"Button",BS_AUTOCHECKBOX | BS_ICON | BS_PUSHLIKE | WS_TABSTOP,210,3,18,18
+    CONTROL         "DP",IDC_DISPPROP,"Button",BS_AUTOCHECKBOX | BS_ICON | BS_PUSHLIKE | WS_TABSTOP,228,3,18,18
+    CONTROL         "DC",IDC_DISPCOLOR,"Button",BS_AUTOCHECKBOX | BS_ICON | BS_PUSHLIKE | WS_TABSTOP,246,3,18,18
+END
+
+IDD_COLOR DIALOGEX 0, 0, 178, 177
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Color"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_H,150,18,24,12,ES_MULTILINE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_L,150,30,24,12,ES_MULTILINE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_S,150,42,24,12,ES_MULTILINE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_R,150,60,24,12,ES_MULTILINE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_G,150,72,24,12,ES_MULTILINE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_B,150,84,24,12,ES_MULTILINE | ES_AUTOHSCROLL
+    PUSHBUTTON      "Load",IDC_LOADPAL,150,150,24,12
+    PUSHBUTTON      "Save",IDC_SAVEPAL,150,162,24,12
+    CONTROL         "",IDC_COLORBAR,"Static",SS_BLACKRECT,126,18,12,108
+    CTEXT           "H",IDC_STATIC,138,18,12,8
+    CTEXT           "L",IDC_STATIC,138,30,12,8
+    CTEXT           "S",IDC_STATIC,138,42,12,8
+    CTEXT           "R",IDC_STATIC,138,60,12,8
+    CTEXT           "G",IDC_STATIC,138,72,12,8
+    CTEXT           "B",IDC_STATIC,138,84,12,8
+    CONTROL         "",IDC_COLORMAP,"Static",SS_BLACKRECT,6,18,114,108
+    CONTROL         "Fill 1",IDC_COLFILL1,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_TABSTOP,8,0,30,12
+    CONTROL         "Fill 2",IDC_COLFILL2,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_TABSTOP,38,0,30,12
+    CONTROL         "Border",IDC_COLBORDER,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_TABSTOP,68,0,30,12
+    CONTROL         "D Shdw",IDC_COLDSHADOW,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_TABSTOP,98,0,30,12
+    CONTROL         "I Shdw",IDC_COLISHADOW,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE | WS_TABSTOP,128,0,30,12
+    CONTROL         "",IDC_COLOR,"Static",SS_OWNERDRAW,144,102,30,18
+    CONTROL         "Button1",IDC_PAL0,"Button",BS_OWNERDRAW | BS_NOTIFY,0,138,18,12
+    CONTROL         "Button1",IDC_PAL1,"Button",BS_OWNERDRAW,18,138,18,12
+    CONTROL         "Button1",IDC_PAL2,"Button",BS_OWNERDRAW,36,138,18,12
+    CONTROL         "Button1",IDC_PAL3,"Button",BS_OWNERDRAW,54,138,18,12
+    CONTROL         "Button1",IDC_PAL8,"Button",BS_OWNERDRAW,0,150,18,12
+    CONTROL         "Button1",IDC_PAL9,"Button",BS_OWNERDRAW,18,150,18,12
+    CONTROL         "Button1",IDC_PAL10,"Button",BS_OWNERDRAW,36,150,18,12
+    CONTROL         "Button1",IDC_PAL11,"Button",BS_OWNERDRAW,54,150,18,12
+    CONTROL         "Button1",IDC_PAL4,"Button",BS_OWNERDRAW,72,138,18,12
+    CONTROL         "Button1",IDC_PAL5,"Button",BS_OWNERDRAW,90,138,18,12
+    CONTROL         "Button1",IDC_PAL6,"Button",BS_OWNERDRAW,108,138,18,12
+    CONTROL         "Button1",IDC_PAL7,"Button",BS_OWNERDRAW,126,138,18,12
+    CONTROL         "Button1",IDC_PAL12,"Button",BS_OWNERDRAW,72,150,18,12
+    CONTROL         "Button1",IDC_PAL13,"Button",BS_OWNERDRAW,90,150,18,12
+    CONTROL         "Button1",IDC_PAL14,"Button",BS_OWNERDRAW,108,150,18,12
+    CONTROL         "Button1",IDC_PAL15,"Button",BS_OWNERDRAW,126,150,18,12
+    ICON            IDI_PIPETTE,IDC_PIPETTE,150,126,20,20
+    CONTROL         "Button1",IDC_PAL16,"Button",BS_OWNERDRAW,0,162,18,12
+    CONTROL         "Button1",IDC_PAL17,"Button",BS_OWNERDRAW,18,162,18,12
+    CONTROL         "Button1",IDC_PAL18,"Button",BS_OWNERDRAW,36,162,18,12
+    CONTROL         "Button1",IDC_PAL19,"Button",BS_OWNERDRAW,54,162,18,12
+    CONTROL         "Button1",IDC_PAL20,"Button",BS_OWNERDRAW,72,162,18,12
+    CONTROL         "Button1",IDC_PAL21,"Button",BS_OWNERDRAW,90,162,18,12
+    CONTROL         "Button1",IDC_PAL22,"Button",BS_OWNERDRAW,108,162,18,12
+    CONTROL         "Button1",IDC_PAL23,"Button",BS_OWNERDRAW,126,162,18,12
+END
+
+IDD_GRIDSETUP DIALOGEX 0, 0, 184, 70
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Grid"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+    EDITTEXT        IDC_WIDTH,42,12,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_HEIGHT,42,30,48,12,ES_AUTOHSCROLL
+    RTEXT           "X",IDC_STATIC,6,12,30,12
+    RTEXT           "Y",IDC_STATIC,6,30,30,12
+    CONTROL         "Visible",IDC_VISIBLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,48,48,12
+    CONTROL         "Enable",IDC_ENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,72,48,48,12
+END
+
+IDD_PNGOPTION DIALOGEX 0, 0, 136, 52
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "PNG Option"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,72,30,50,14
+    CONTROL         "Transparent Background",IDC_TRANSPARENT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,6,102,13
+END
+
+IDD_PROPELLIPSE DIALOGEX 0, 0, 284, 740
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "Pos:",IDC_PROP_POS,0,0,36,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_X,36,0,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_XSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,156,0,11,12
+    EDITTEXT        IDC_Y,84,0,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_YSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,168,0,11,12
+    CTEXT           "Size:",IDC_PROP_SIZE,0,12,36,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_W,36,12,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_WSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,156,12,11,12
+    EDITTEXT        IDC_H,84,12,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,168,12,11,12
+    CTEXT           "Operation:",IDC_PROP_OPERATION,0,30,78,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_OPERATION,78,30,54,60,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Slant:",IDC_PROP_SLANT,0,48,78,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SLANT,78,48,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLANTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,48,11,12
+    CTEXT           "Angle:",IDC_PROP_ANGLE,0,60,78,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_ANGLE,78,60,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANGLESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,60,11,12
+    CTEXT           "Start:",IDC_PROP_START,0,72,78,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_START,78,72,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_STARTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,72,11,12
+    CTEXT           "Stop:",IDC_PROP_STOP,0,84,78,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_STOP,78,84,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_STOPSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,84,11,12
+    CTEXT           "Color",IDC_PROP_COLOR,42,102,48,12,SS_CENTERIMAGE
+    CTEXT           "Alpha",IDC_PROP_ALPHA,90,102,42,12,SS_CENTERIMAGE
+    CTEXT           "Fill1",IDC_PROP_FILL1,0,114,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_COLOR1,"Button",BS_OWNERDRAW | WS_TABSTOP,48,114,48,12
+    EDITTEXT        IDC_ALPHA1,96,114,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHA1SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,114,11,12
+    CTEXT           "Fill2",IDC_PROP_FILL2,0,126,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_COLOR2,"Button",BS_OWNERDRAW | WS_TABSTOP,48,126,48,12
+    EDITTEXT        IDC_ALPHA2,96,126,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHA2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,126,11,12
+    CTEXT           "Border",IDC_PROP_BORDER,0,138,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_COLOR3,"Button",BS_OWNERDRAW | WS_TABSTOP,48,138,48,12
+    EDITTEXT        IDC_ALPHA3,96,138,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHA3SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,138,11,12
+    CTEXT           "Gradation:",IDC_PROP_GRADATION,0,156,48,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_GRADATIONTYPE,48,156,48,66,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_LINEAR,96,156,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_LINEARSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,156,11,12
+    CTEXT           "Smoother:",IDC_PROP_SMOOTHER,0,168,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SMOOTHER,96,168,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SMOOTHERSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,168,11,12
+    CONTROL         "Pie",IDC_PIE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,192,66,12
+    CONTROL         "Close",IDC_CLOSE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,66,192,66,12
+    CONTROL         "Fill",IDC_FILL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,204,66,12
+    CONTROL         "Border",IDC_BORDER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,216,66,12
+    COMBOBOX        IDC_BORDERTYPE,66,216,66,48,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "BorderAsFill",IDC_BORDERASFILL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,228,66,12
+    CTEXT           "BorderWidth:",IDC_PROP_BORDERWIDTH,0,240,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_WIDTH,66,240,66,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_WIDTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,240,11,12
+    CTEXT           "BorderJoin:",IDC_PROP_BORDERJOIN,0,252,66,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_BORDERJOIN,"ComboBoxEx32",CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,66,252,66,66
+    CTEXT           "LineCap:",IDC_PROP_LINECAP,0,270,66,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_LINECAP,"ComboBoxEx32",CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,66,270,66,84
+    CTEXT           "MasterAlpha:",IDC_PROP_MASTERALPHA,0,288,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_ALPHA,66,288,66,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHASPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,288,11,12
+    CTEXT           "Diffuse:",IDC_PROP_DIFFUSE,0,300,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_DIFFUSE,66,300,66,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_DIFFUSESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,300,11,12
+    CONTROL         "AntiAlias",IDC_ANTIALIAS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,312,66,12
+    LTEXT           " Specular",IDC_PROP_SPEC,0,330,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Light1",IDC_PROP_SPEC_LIGHT1,48,342,42,12,SS_CENTERIMAGE
+    CTEXT           "Light2",IDC_PROP_SPEC_LIGHT2,90,342,42,12,SS_CENTERIMAGE
+    CTEXT           "Type:",IDC_PROP_SPEC_TYPE,0,354,48,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_SPECULARTYPE,48,354,42,78,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SPECULARTYPE2,90,354,42,78,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Direction:",IDC_PROP_SPEC_DIR,0,372,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SPECULARDIR,48,372,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPECULARDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,372,11,12
+    EDITTEXT        IDC_SPECULARDIR2,90,372,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPECULARDIR2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,372,11,12
+    CTEXT           "Offset:",IDC_PROP_SPEC_OFF,0,383,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SPECULAROFF,48,383,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPECULAROFFSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,383,11,12
+    EDITTEXT        IDC_SPECULAROFF2,90,383,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPECULAROFF2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,383,11,12
+    CTEXT           "Specular:",IDC_PROP_SPEC_SPEC,0,396,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SPECULAR,48,396,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPECULARSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,396,11,12
+    EDITTEXT        IDC_SPECULAR2,90,396,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPECULAR2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,396,11,12
+    CTEXT           "Highlight:",IDC_PROP_SPEC_HILIGHT,0,407,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_HIGHLIGHT,48,407,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,407,11,12
+    EDITTEXT        IDC_HIGHLIGHT2,90,407,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHT2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,407,11,12
+    CTEXT           "HighlightW:",IDC_PROP_SPEC_HILIGHTW,0,420,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_HIGHLIGHTWIDTH,48,420,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHTWIDTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,420,11,12
+    EDITTEXT        IDC_HIGHLIGHTWIDTH2,90,420,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHTWIDTH2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,420,11,12
+    CTEXT           "Ambient:",IDC_PROP_SPEC_AMBIENT,0,431,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_AMBIENT,48,431,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_AMBIENTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,431,11,12
+    EDITTEXT        IDC_AMBIENT2,90,431,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_AMBIENT2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,431,11,12
+    LTEXT           " Emboss",IDC_PROP_EMBOSS,0,450,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Direction:",IDC_PROP_EMBOSS_DIR,0,462,66,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_EMBOSSDIRENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,72,462,12,12
+    EDITTEXT        IDC_EMBOSSDIR,84,462,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_EMBOSSDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,462,11,12
+    CTEXT           "Width:",IDC_PROP_EMBOSS_WIDTH,0,474,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EMBOSSWIDTH,72,474,60,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_EMBOSSWIDTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,474,11,12
+    CTEXT           "Depth(Border):",IDC_PROP_EMBOSS_DEPTHB,0,486,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EMBOSSDEPTH,72,486,60,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_EMBOSSDEPTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,486,11,12
+    CTEXT           "Depth(Fill):",IDC_PROP_EMBOSS_DEPTHF,0,498,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EMBOSSDEPTH2,72,498,60,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_EMBOSSDEPTH2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,498,11,12
+    LTEXT           " Texture",IDC_PROP_TEX,0,516,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Type:",IDC_PROP_TEX_TYPE,0,528,48,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_TEXTURETYPE,"ComboBoxEx32",CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,48,528,84,144
+    CTEXT           "Intensity:",IDC_PROP_TEX_INTENSITY,0,546,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TEXTURE,48,546,84,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTURESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,546,11,12
+    CONTROL         "UseTextureAlpha",IDC_TEXTUREALPHA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,48,559,84,12
+    CTEXT           "X",IDC_PROP_TEX_X,48,576,42,8,SS_CENTERIMAGE
+    CTEXT           "Y",IDC_PROP_TEX_Y,90,576,42,8,SS_CENTERIMAGE
+    CTEXT           "Zoom:",IDC_PROP_TEX_ZOOM,0,600,48,12,SS_CENTERIMAGE
+    CONTROL         "XY Separate",IDC_TEXTUREZOOMXYSEPA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,48,588,84,12
+    EDITTEXT        IDC_TEXTUREZOOMX,48,600,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREZOOMXSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,600,11,12
+    EDITTEXT        IDC_TEXTUREZOOMY,90,600,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREZOOMYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,600,11,12
+    CTEXT           "Offset:",IDC_PROP_TEX_OFF,0,612,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TEXTUREOFFX,48,612,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREOFFXSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,612,11,12
+    EDITTEXT        IDC_TEXTUREOFFY,90,612,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREOFFYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,612,11,12
+    CTEXT           "Rotate:",IDC_PROP_TEX_ROT,0,624,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TEXTUREROT,48,624,84,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREROTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,624,11,12
+    LTEXT           " Shadow",IDC_PROP_SHADOW,0,640,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Drop",IDC_PROP_SHADOW_DROP,48,654,42,12,SS_CENTERIMAGE
+    CTEXT           "Inside",IDC_PROP_SHADOW_INSIDE,90,654,42,12,SS_CENTERIMAGE
+    CTEXT           "Color:",IDC_PROP_SHADOW_COLOR,0,666,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_SHADOWCOLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,48,666,42,12
+    CONTROL         "Color",IDC_ISHADOWCOLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,90,666,42,12
+    CTEXT           "Direction:",IDC_PROP_SHADOW_DIR,0,678,48,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_SHADOWDIRENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,48,678,12,12
+    EDITTEXT        IDC_SHADOWDIR,60,678,30,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SHADOWDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,678,11,12
+    CONTROL         "",IDC_ISHADOWDIRENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,90,678,12,12
+    EDITTEXT        IDC_ISHADOWDIR,102,678,30,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ISHADOWDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,678,11,12
+    CTEXT           "Offset:",IDC_PROP_SHADOW_OFFSET,0,690,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SHADOWOFFSET,48,690,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SHADOWOFFSETSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,690,11,12
+    EDITTEXT        IDC_ISHADOWOFFSET,90,690,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ISHADOWOFFSETSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,690,11,12
+    CTEXT           "Density:",IDC_PROP_SHADOW_DENSITY,0,702,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SHADOWDENSITY,48,702,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SHADOWDENSITYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,702,11,12
+    EDITTEXT        IDC_ISHADOWDENSITY,90,702,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ISHADOWDENSITYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,702,11,12
+    CTEXT           "Diffuse:",IDC_PROP_SHADOW_DIFFUSE,0,714,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SHADOWDIFFUSE,48,714,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SHADOWDIFFUSESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,714,11,12
+    EDITTEXT        IDC_ISHADOWDIFFUSE,90,714,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ISHADOWDIFFUSESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,714,11,12
+    PUSHBUTTON      "Cp",IDC_COPYCOODINATE,132,0,12,12,BS_BITMAP
+END
+
+IDD_PROPIMAGE DIALOGEX 0, 0, 350, 530
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "Pos:",IDC_PROP_POS,0,0,36,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_X,36,0,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_XSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,156,0,11,12
+    EDITTEXT        IDC_Y,84,0,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_YSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,168,0,11,12
+    CTEXT           "Size:",IDC_PROP_SIZE,0,12,36,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_W,36,12,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_WSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,156,12,11,12
+    EDITTEXT        IDC_H,84,12,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,168,12,11,12
+    PUSHBUTTON      "1:1",IDC_RESET,84,24,48,12
+    CTEXT           "Slant:",IDC_PROP_SLANT,0,42,78,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SLANT,78,42,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLANTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,42,11,12
+    CTEXT           "Angle:",IDC_PROP_ANGLE,0,54,78,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_ANGLE,78,54,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANGLESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,54,11,12
+    CTEXT           "Alpha1:",IDC_PROP_ALPHA1,0,66,78,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_ALPHA1,78,66,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHA1SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,66,11,12
+    CTEXT           "Alpha2:",IDC_PROP_ALPHA2,0,78,78,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_ALPHA2,78,78,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHA2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,78,11,12
+    COMBOBOX        IDC_GRADATIONTYPE,48,90,48,66,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_LINEAR,96,90,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_LINEARSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,90,11,12
+    CTEXT           "MasterAlpha:",IDC_PROP_MASTERALPHA,0,108,78,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_ALPHA,78,108,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHASPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,108,11,12
+    CTEXT           "Diffuse:",IDC_PROP_DIFFUSE,0,120,78,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_DIFFUSE,78,120,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_DIFFUSESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,120,11,12
+    LTEXT           " Specular",IDC_PROP_SPEC,0,138,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Light1",IDC_PROP_SPEC_LIGHT1,42,150,42,12,SS_CENTERIMAGE
+    CTEXT           "Light2",IDC_PROP_SPEC_LIGHT2,90,150,42,12,SS_CENTERIMAGE
+    CTEXT           "Type:",IDC_PROP_SPEC_TYPE,0,162,48,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_SPECULARTYPE,48,162,42,78,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SPECULARTYPE2,90,162,42,78,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Direction:",IDC_PROP_SPEC_DIR,0,180,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SPECULARDIR,48,180,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPECULARDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,180,11,12
+    EDITTEXT        IDC_SPECULARDIR2,90,180,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPECULARDIR2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,180,11,12
+    CTEXT           "Specular:",IDC_PROP_SPEC_SPEC,0,192,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SPECULAR,48,192,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPECULARSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,192,11,12
+    EDITTEXT        IDC_SPECULAR2,90,192,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPECULAR2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,192,11,12
+    CTEXT           "Highlight:",IDC_PROP_SPEC_HILIGHT,0,204,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_HIGHLIGHT,48,204,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,204,11,12
+    EDITTEXT        IDC_HIGHLIGHT2,90,204,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHT2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,204,11,12
+    CTEXT           "HighlightW:",IDC_PROP_SPEC_HILIGHTW,0,216,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_HIGHLIGHTWIDTH,48,216,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHTWIDTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,216,11,12
+    EDITTEXT        IDC_HIGHLIGHTWIDTH2,90,216,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHTWIDTH2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,216,11,12
+    CTEXT           "Ambient:",IDC_PROP_SPEC_AMBIENT,0,228,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_AMBIENT,48,228,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_AMBIENTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,228,11,12
+    EDITTEXT        IDC_AMBIENT2,90,228,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_AMBIENT2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,228,11,12
+    LTEXT           " Emboss",IDC_PROP_EMBOSS,0,246,132,10,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "Direction:",IDC_PROP_EMBOSS_DIR,0,258,72,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_EMBOSSDIRENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,78,258,12,12
+    EDITTEXT        IDC_EMBOSSDIR,90,258,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_EMBOSSDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,258,11,12
+    CTEXT           "Width:",IDC_PROP_EMBOSS_WIDTH,0,270,72,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EMBOSSWIDTH,78,270,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_EMBOSSWIDTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,270,11,12
+    CTEXT           "Depth(Border):",IDC_PROP_EMBOSS_DEPTHB,0,282,72,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EMBOSSDEPTH,78,282,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_EMBOSSDEPTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,282,11,12
+    CTEXT           "Depth(Fill):",IDC_PROP_EMBOSS_DEPTHF,0,294,72,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EMBOSSDEPTH2,78,294,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_EMBOSSDEPTH2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,294,11,12
+    LTEXT           " Texture",IDC_PROP_TEX,0,313,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Type:",IDC_PROP_TEX_TYPE,0,324,48,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_TEXTURETYPE,"ComboBoxEx32",CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,48,324,84,144
+    CTEXT           "Intensity:",IDC_PROP_TEX_INTENSITY,0,342,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TEXTURE,48,342,84,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTURESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,342,11,12
+    CONTROL         "UseTextureAlpha",IDC_TEXTUREALPHA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,48,354,84,12
+    CTEXT           "X",IDC_PROP_TEX_X,48,366,42,12,SS_CENTERIMAGE
+    CTEXT           "Y",IDC_PROP_TEX_Y,90,366,42,12,SS_CENTERIMAGE
+    CTEXT           "Zoom:",IDC_PROP_TEX_ZOOM,0,390,48,12,SS_CENTERIMAGE
+    CONTROL         "XY Separate",IDC_TEXTUREZOOMXYSEPA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,48,378,84,12
+    EDITTEXT        IDC_TEXTUREZOOMX,48,390,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREZOOMXSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,390,11,12
+    EDITTEXT        IDC_TEXTUREZOOMY,90,390,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREZOOMYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,390,11,12
+    CTEXT           "Offset:",IDC_PROP_TEX_OFF,0,402,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TEXTUREOFFX,48,402,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREOFFXSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,402,11,12
+    EDITTEXT        IDC_TEXTUREOFFY,90,402,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREOFFYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,402,11,12
+    CTEXT           "Rotate:",IDC_PROP_TEX_ROT,0,414,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TEXTUREROT,48,414,84,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREROTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,414,11,12
+    LTEXT           " Shadow",IDC_PROP_SHADOW,0,432,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Drop",IDC_PROP_SHADOW_DROP,48,445,42,12,SS_CENTERIMAGE
+    CTEXT           "Inside",IDC_PROP_SHADOW_INSIDE,90,445,42,12,SS_CENTERIMAGE
+    CTEXT           "Color:",IDC_PROP_SHADOW_COLOR,0,456,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_SHADOWCOLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,48,456,42,12
+    CONTROL         "Color",IDC_ISHADOWCOLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,90,456,42,12
+    CTEXT           "Direction:",IDC_PROP_SHADOW_DIR,0,468,48,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_SHADOWDIRENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,48,468,12,12
+    EDITTEXT        IDC_SHADOWDIR,60,468,30,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SHADOWDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,468,11,12
+    CONTROL         "",IDC_ISHADOWDIRENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,90,468,12,12
+    EDITTEXT        IDC_ISHADOWDIR,102,468,30,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ISHADOWDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,468,11,12
+    CTEXT           "Offset:",IDC_PROP_SHADOW_OFFSET,0,480,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SHADOWOFFSET,48,480,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SHADOWOFFSETSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,480,11,12
+    EDITTEXT        IDC_ISHADOWOFFSET,90,480,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ISHADOWOFFSETSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,480,11,12
+    CTEXT           "Density:",IDC_PROP_SHADOW_DENSITY,0,492,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SHADOWDENSITY,48,492,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SHADOWDENSITYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,492,11,12
+    EDITTEXT        IDC_ISHADOWDENSITY,90,492,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ISHADOWDENSITYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,492,11,12
+    CTEXT           "Diffuse:",IDC_PROP_SHADOW_DIFFUSE,0,504,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SHADOWDIFFUSE,48,504,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SHADOWDIFFUSESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,504,11,12
+    EDITTEXT        IDC_ISHADOWDIFFUSE,90,504,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ISHADOWDIFFUSESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,504,11,12
+    CTEXT           "Gradation:",IDC_PROP_GRADATION,0,90,48,12,SS_CENTERIMAGE
+    PUSHBUTTON      "Cp",IDC_COPYCOODINATE,132,0,12,12,BS_BITMAP
+END
+
+IDD_PROPNONE DIALOGEX 0, 0, 122, 253
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_PROPPOLYGON DIALOGEX 0, 0, 320, 704
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "Pos:",IDC_PROP_POS,0,0,36,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_X,36,0,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_XSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,0,11,12
+    EDITTEXT        IDC_Y,84,0,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_YSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,160,0,11,12
+    CTEXT           "Size:",IDC_PROP_SIZE,0,12,36,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_W,36,12,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_WSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,12,11,12
+    EDITTEXT        IDC_H,84,12,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,160,12,11,12
+    CTEXT           "Operation:",IDC_PROP_OPERATION,0,30,78,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_OPERATION,78,30,54,60,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Slant:",IDC_PROP_SLANT,0,48,78,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SLANT,78,48,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLANTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,48,11,12
+    CTEXT           "Angle:",IDC_PROP_ANGLE,0,60,78,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_ANGLE,78,60,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANGLESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,60,11,12
+    CTEXT           "Vertex:",IDC_PROP_VERTEX,0,78,78,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_VERTEX,78,78,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_VERTEXSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,78,11,12
+    CTEXT           "StarDepth:",IDC_PROP_STARDEPTH,0,90,78,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_STARDEPTH,78,90,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_STARDEPTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,90,11,12
+    CTEXT           "Curve:",IDC_PROP_CURVE,0,102,78,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TENSION,78,102,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_TENSIONSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,102,11,12
+    CTEXT           "Twist:",IDC_PROP_TWIST,0,114,78,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TWIST,78,114,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_TWISTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,114,11,12
+    CTEXT           "Color",IDC_PROP_COLOR,42,132,48,12,SS_CENTERIMAGE
+    CTEXT           "Alpha",IDC_PROP_ALPHA,90,132,42,12,SS_CENTERIMAGE
+    CTEXT           "Fill1",IDC_PROP_FILL1,0,144,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_COLOR1,"Button",BS_OWNERDRAW | WS_TABSTOP,48,144,48,12
+    EDITTEXT        IDC_ALPHA1,96,144,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHA1SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,144,11,12
+    CTEXT           "Fill2",IDC_PROP_FILL2,0,156,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_COLOR2,"Button",BS_OWNERDRAW | WS_TABSTOP,48,156,48,12
+    EDITTEXT        IDC_ALPHA2,96,156,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHA2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,156,11,12
+    CTEXT           "Border",IDC_PROP_BORDER,0,168,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_COLOR3,"Button",BS_OWNERDRAW | WS_TABSTOP,48,168,48,12
+    EDITTEXT        IDC_ALPHA3,96,168,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHA3SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,168,11,12
+    CTEXT           "Gradation:",IDC_PROP_GRADATION,0,186,48,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_GRADATIONTYPE,48,186,48,66,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_LINEAR,96,186,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_LINEARSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,186,11,12
+    CTEXT           "Smoother:",IDC_PROP_SMOOTHER,0,198,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SMOOTHER,96,198,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SMOOTHERSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,198,11,12
+    CONTROL         "Fill",IDC_FILL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,216,66,12
+    CONTROL         "Border",IDC_BORDER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,228,66,12
+    COMBOBOX        IDC_BORDERTYPE,66,228,66,48,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "BorderAsFill",IDC_BORDERASFILL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,240,66,12
+    CTEXT           "BorderWidth:",IDC_PROP_BORDERWIDTH,0,252,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_WIDTH,66,252,66,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_WIDTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,252,11,12
+    CTEXT           "BorderJoin:",IDC_PROP_BORDERJOIN,0,264,66,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_BORDERJOIN,"ComboBoxEx32",CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,66,264,66,66
+    CTEXT           "MasterAlpha:",IDC_PROP_MASTERALPHA,0,282,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_ALPHA,66,282,66,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHASPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,282,11,12
+    CTEXT           "Diffuse:",IDC_PROP_DIFFUSE,0,294,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_DIFFUSE,66,294,66,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_DIFFUSESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,294,11,12
+    CONTROL         "AntiAlias",IDC_ANTIALIAS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,306,78,12
+    LTEXT           " Specular",IDC_PROP_SPEC,0,324,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Light1",IDC_PROP_SPEC_LIGHT1,48,336,42,12,SS_CENTERIMAGE
+    CTEXT           "Light2",IDC_PROP_SPEC_LIGHT2,90,336,42,12,SS_CENTERIMAGE
+    CTEXT           "Type:",IDC_PROP_SPEC_TYPE,0,348,48,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_SPECULARTYPE,48,348,42,78,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SPECULARTYPE2,90,348,42,78,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Direction:",IDC_PROP_SPEC_DIR,0,360,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SPECULARDIR,48,360,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPECULARDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,360,11,12
+    EDITTEXT        IDC_SPECULARDIR2,90,360,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPECULARDIR2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,142,360,11,12
+    CTEXT           "Specular:",IDC_PROP_SPEC_SPEC,0,372,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SPECULAR,48,372,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPECULARSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,372,11,12
+    EDITTEXT        IDC_SPECULAR2,90,372,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPECULAR2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,142,372,11,12
+    CTEXT           "Highlight:",IDC_PROP_SPEC_HILIGHT,0,384,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_HIGHLIGHT,48,384,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,384,11,12
+    EDITTEXT        IDC_HIGHLIGHT2,90,384,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHT2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,142,384,11,12
+    CTEXT           "HighlightW:",IDC_PROP_SPEC_HILIGHTW,0,396,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_HIGHLIGHTWIDTH,48,396,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHTWIDTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,396,11,12
+    EDITTEXT        IDC_HIGHLIGHTWIDTH2,90,396,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHTWIDTH2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,142,396,11,12
+    CTEXT           "Ambient:",IDC_PROP_SPEC_AMBIENT,0,408,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_AMBIENT,48,408,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_AMBIENTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,408,11,12
+    EDITTEXT        IDC_AMBIENT2,90,408,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_AMBIENT2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,142,408,11,12
+    LTEXT           " Emboss",IDC_PROP_EMBOSS,0,426,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Direction:",IDC_PROP_EMBOSS_DIR,0,438,72,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_EMBOSSDIRENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,78,438,12,12
+    EDITTEXT        IDC_EMBOSSDIR,90,438,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_EMBOSSDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,439,11,12
+    CTEXT           "Width:",IDC_PROP_EMBOSS_WIDTH,0,450,72,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EMBOSSWIDTH,78,450,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_EMBOSSWIDTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,452,11,12
+    CTEXT           "Depth(Border):",IDC_PROP_EMBOSS_DEPTHB,0,462,72,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EMBOSSDEPTH,78,462,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_EMBOSSDEPTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,463,11,12
+    CTEXT           "Depth(Fill):",IDC_PROP_EMBOSS_DEPTHF,0,474,72,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EMBOSSDEPTH2,78,474,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_EMBOSSDEPTH2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,476,11,12
+    LTEXT           " Texture",IDC_PROP_TEX,0,492,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Type:",IDC_PROP_TEX_TYPE,0,504,48,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_TEXTURETYPE,"ComboBoxEx32",CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,48,504,84,144
+    CTEXT           "Intensity:",IDC_PROP_TEX_INTENSITY,0,522,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TEXTURE,48,522,84,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTURESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,522,11,12
+    CONTROL         "UseTextureAlpha",IDC_TEXTUREALPHA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,48,534,84,12
+    CTEXT           "X",IDC_PROP_TEX_X,48,546,42,12,SS_CENTERIMAGE
+    CTEXT           "Y",IDC_PROP_TEX_Y,90,546,42,12,SS_CENTERIMAGE
+    CTEXT           "Zoom:",IDC_PROP_TEX_ZOOM,0,570,48,12,SS_CENTERIMAGE
+    CONTROL         "XY Separate",IDC_TEXTUREZOOMXYSEPA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,48,558,84,12
+    EDITTEXT        IDC_TEXTUREZOOMX,48,570,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREZOOMXSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,570,11,12
+    EDITTEXT        IDC_TEXTUREZOOMY,90,570,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREZOOMYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,570,11,12
+    CTEXT           "Offset:",IDC_PROP_TEX_OFF,0,582,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TEXTUREOFFX,48,582,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREOFFXSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,582,11,12
+    EDITTEXT        IDC_TEXTUREOFFY,90,582,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREOFFYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,582,11,12
+    CTEXT           "Rotate:",IDC_PROP_TEX_ROT,0,594,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TEXTUREROT,48,594,84,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREROTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,594,11,12
+    LTEXT           " Shadow",IDC_PROP_SHADOW,0,612,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Drop",IDC_PROP_SHADOW_DROP,48,624,42,12,SS_CENTERIMAGE
+    CTEXT           "Inside",IDC_PROP_SHADOW_INSIDE,90,624,42,12,SS_CENTERIMAGE
+    CTEXT           "Color:",IDC_PROP_SHADOW_COLOR,0,636,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_SHADOWCOLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,48,636,42,12
+    CONTROL         "Color",IDC_ISHADOWCOLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,90,636,42,12
+    CTEXT           "Direction:",IDC_PROP_SHADOW_DIR,0,648,48,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_SHADOWDIRENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,48,648,12,12
+    EDITTEXT        IDC_SHADOWDIR,60,648,30,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SHADOWDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,648,11,12
+    CONTROL         "",IDC_ISHADOWDIRENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,90,648,12,12
+    EDITTEXT        IDC_ISHADOWDIR,102,648,30,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ISHADOWDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,648,11,12
+    CTEXT           "Offset:",IDC_PROP_SHADOW_OFFSET,0,660,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SHADOWOFFSET,48,660,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SHADOWOFFSETSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,660,11,12
+    EDITTEXT        IDC_ISHADOWOFFSET,90,660,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ISHADOWOFFSETSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,660,11,12
+    CTEXT           "Density:",IDC_PROP_SHADOW_DENSITY,0,672,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SHADOWDENSITY,48,672,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SHADOWDENSITYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,672,11,12
+    EDITTEXT        IDC_ISHADOWDENSITY,90,672,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ISHADOWDENSITYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,672,11,12
+    CTEXT           "Diffuse:",IDC_PROP_SHADOW_DIFFUSE,0,684,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SHADOWDIFFUSE,48,684,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SHADOWDIFFUSESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,684,11,12
+    EDITTEXT        IDC_ISHADOWDIFFUSE,90,684,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ISHADOWDIFFUSESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,684,11,12
+    PUSHBUTTON      "Cp",IDC_COPYCOODINATE,132,0,12,12,BS_BITMAP
+END
+
+IDD_PROPLINES DIALOGEX 0, 0, 338, 680
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "Pos:",IDC_PROP_POS,0,0,36,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_X,36,0,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_XSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,156,0,11,12
+    EDITTEXT        IDC_Y,84,0,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_YSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,168,0,11,12
+    CTEXT           "Size:",IDC_PROP_SIZE,0,12,36,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_W,36,12,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_WSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,156,12,11,12
+    EDITTEXT        IDC_H,84,12,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,168,12,11,12
+    CTEXT           "Operation:",IDC_PROP_OPERATION,0,30,78,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_OPERATION,78,30,54,60,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Slant:",IDC_PROP_SLANT,0,48,78,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SLANT,78,48,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLANTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,48,11,12
+    CTEXT           "Angle:",IDC_PROP_ANGLE,0,60,78,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_ANGLE,78,60,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANGLESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,60,11,12
+    CTEXT           "Vertex:",IDC_PROP_VERTEX,0,72,78,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_VERTEX,78,72,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_VERTEXSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,72,11,12
+    CTEXT           "Depth:",IDC_PROP_STARDEPTH,0,84,78,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_STARDEPTH,78,84,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_STARDEPTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,84,11,12
+    CTEXT           "Twist:",IDC_PROP_TWIST,0,96,78,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TWIST,78,96,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_TWISTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,96,11,12
+    CTEXT           "Start:",IDC_PROP_START,0,108,78,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_START,78,108,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_STARTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,108,11,12
+    CTEXT           "Stop:",IDC_PROP_STOP,0,120,78,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_STOP,78,120,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_STOPSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,120,11,12
+    CTEXT           "Color",IDC_PROP_COLOR,42,132,48,12,SS_CENTERIMAGE
+    CTEXT           "Alpha",IDC_PROP_ALPHA,90,132,42,12,SS_CENTERIMAGE
+    CTEXT           "Fill1",IDC_PROP_FILL1,0,144,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_COLOR1,"Button",BS_OWNERDRAW | WS_TABSTOP,48,144,48,12
+    EDITTEXT        IDC_ALPHA1,96,144,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHA1SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,144,11,12
+    CTEXT           "Fill2",IDC_PROP_FILL2,0,156,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_COLOR2,"Button",BS_OWNERDRAW | WS_TABSTOP,48,156,48,12
+    EDITTEXT        IDC_ALPHA2,96,156,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHA2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,156,11,12
+    CTEXT           "Border",IDC_PROP_BORDER,0,168,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_COLOR3,"Button",BS_OWNERDRAW | WS_TABSTOP,48,168,48,12
+    EDITTEXT        IDC_ALPHA3,96,168,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHA3SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,168,11,12
+    CTEXT           "Width:",IDC_PROP_BORDERWIDTH,0,186,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_WIDTH,66,186,66,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_WIDTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,186,11,12
+    CTEXT           "LineType:",IDC_PROP_LINETYPE,0,198,66,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_LINETYPE,"ComboBoxEx32",CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP,66,198,66,84
+    CTEXT           "LineCap:",IDC_PROP_LINECAP,0,216,66,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_LINECAP,"ComboBoxEx32",CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP,66,216,66,84
+    CTEXT           "MasterAlpha:",IDC_PROP_MASTERALPHA,0,240,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_ALPHA,66,240,66,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHASPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,240,11,12
+    CTEXT           "Diffuse:",IDC_PROP_DIFFUSE,0,252,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_DIFFUSE,66,252,66,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_DIFFUSESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,252,11,12
+    CONTROL         "AntiAlias",IDC_ANTIALIAS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,270,66,12
+    CONTROL         "UseFillColor",IDC_BORDERASFILL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,66,270,66,12
+    LTEXT           " Specular",IDC_PROP_SPEC,0,288,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Light1",IDC_PROP_SPEC_LIGHT1,48,300,42,12,SS_CENTERIMAGE
+    CTEXT           "Light2",IDC_PROP_SPEC_LIGHT2,90,300,42,12,SS_CENTERIMAGE
+    CTEXT           "Type:",IDC_PROP_SPEC_TYPE,0,312,48,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_SPECULARTYPE,48,312,42,78,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SPECULARTYPE2,90,312,42,78,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Direction:",IDC_PROP_SPEC_DIR,0,330,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SPECULARDIR,48,330,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPECULARDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,330,11,12
+    EDITTEXT        IDC_SPECULARDIR2,90,330,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPECULARDIR2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,330,11,12
+    CTEXT           "Specular:",IDC_PROP_SPEC_SPEC,0,342,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SPECULAR,48,342,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPECULARSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,342,11,12
+    EDITTEXT        IDC_SPECULAR2,90,342,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPECULAR2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,342,11,12
+    CTEXT           "Highlight:",IDC_PROP_SPEC_HILIGHT,0,354,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_HIGHLIGHT,48,354,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,354,11,12
+    EDITTEXT        IDC_HIGHLIGHT2,90,354,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHT2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,354,11,12
+    CTEXT           "HighlightW:",IDC_PROP_SPEC_HILIGHTW,0,366,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_HIGHLIGHTWIDTH,48,366,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHTWIDTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,366,11,12
+    EDITTEXT        IDC_HIGHLIGHTWIDTH2,90,366,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHTWIDTH2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,366,11,12
+    CTEXT           "Ambient:",IDC_PROP_SPEC_AMBIENT,0,378,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_AMBIENT,48,378,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_AMBIENTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,378,11,12
+    EDITTEXT        IDC_AMBIENT2,90,378,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_AMBIENT2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,378,11,12
+    LTEXT           " Emboss",IDC_PROP_EMBOSS,0,396,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Direction:",IDC_PROP_EMBOSS_DIR,0,408,72,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_EMBOSSDIRENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,78,408,12,12
+    EDITTEXT        IDC_EMBOSSDIR,90,408,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_EMBOSSDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,408,11,12
+    CTEXT           "Width:",IDC_PROP_EMBOSS_WIDTH,0,420,72,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EMBOSSWIDTH,78,420,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_EMBOSSWIDTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,420,11,12
+    CTEXT           "Depth:",IDC_PROP_EMBOSS_DEPTH,0,432,72,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EMBOSSDEPTH,78,432,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_EMBOSSDEPTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,432,11,12
+    LTEXT           " Texture",IDC_PROP_TEX,0,450,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Type:",IDC_PROP_TEX_TYPE,0,462,48,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_TEXTURETYPE,"ComboBoxEx32",CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,48,462,84,144
+    CTEXT           "Intensity:",IDC_PROP_TEX_INTENSITY,0,480,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TEXTURE,48,480,84,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTURESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,480,11,12
+    CONTROL         "UseTextureAlpha",IDC_TEXTUREALPHA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,48,492,84,12
+    CTEXT           "X",IDC_PROP_TEX_X,48,510,42,8,SS_CENTERIMAGE
+    CTEXT           "Y",IDC_PROP_TEX_Y,90,510,42,8,SS_CENTERIMAGE
+    CTEXT           "Zoom:",IDC_PROP_TEX_ZOOM,0,534,48,12,SS_CENTERIMAGE
+    CONTROL         "XY Separate",IDC_TEXTUREZOOMXYSEPA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,48,522,84,12
+    EDITTEXT        IDC_TEXTUREZOOMX,48,534,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREZOOMXSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,534,11,12
+    EDITTEXT        IDC_TEXTUREZOOMY,90,534,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREZOOMYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,534,11,12
+    CTEXT           "Offset:",IDC_PROP_TEX_OFF,0,546,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TEXTUREOFFX,48,546,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREOFFXSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,546,11,12
+    EDITTEXT        IDC_TEXTUREOFFY,90,546,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREOFFYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,546,11,12
+    CTEXT           "Rotate:",IDC_PROP_TEX_ROT,0,558,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TEXTUREROT,48,558,84,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREROTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,558,11,12
+    LTEXT           " Shadow",IDC_PROP_SHADOW,0,576,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Drop",IDC_PROP_SHADOW_DROP,48,588,42,12,SS_CENTERIMAGE
+    CTEXT           "Inside",IDC_PROP_SHADOW_INSIDE,90,588,42,12,SS_CENTERIMAGE
+    CTEXT           "Color:",IDC_PROP_SHADOW_COLOR,0,600,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_SHADOWCOLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,48,600,42,12
+    CONTROL         "Color",IDC_ISHADOWCOLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,90,600,42,12
+    CTEXT           "Direction:",IDC_PROP_SHADOW_DIR,0,612,48,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_SHADOWDIRENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,48,612,12,12
+    EDITTEXT        IDC_SHADOWDIR,60,612,30,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SHADOWDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,612,11,12
+    CONTROL         "",IDC_ISHADOWDIRENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,90,612,12,12
+    EDITTEXT        IDC_ISHADOWDIR,102,612,30,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ISHADOWDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,612,11,12
+    CTEXT           "Offset:",IDC_PROP_SHADOW_OFFSET,0,624,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SHADOWOFFSET,48,624,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SHADOWOFFSETSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,624,11,12
+    EDITTEXT        IDC_ISHADOWOFFSET,90,624,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ISHADOWOFFSETSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,624,11,12
+    CTEXT           "Density:",IDC_PROP_SHADOW_DENSITY,0,636,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SHADOWDENSITY,48,636,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SHADOWDENSITYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,636,11,12
+    EDITTEXT        IDC_ISHADOWDENSITY,90,636,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ISHADOWDENSITYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,636,11,12
+    CTEXT           "Diffuse:",IDC_PROP_SHADOW_DIFFUSE,0,648,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SHADOWDIFFUSE,48,648,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SHADOWDIFFUSESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,648,11,12
+    EDITTEXT        IDC_ISHADOWDIFFUSE,90,648,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ISHADOWDIFFUSESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,648,11,12
+    PUSHBUTTON      "Cp",IDC_COPYCOODINATE,132,0,12,12,BS_BITMAP
+END
+
+IDD_PROPRECT DIALOGEX 0, 0, 308, 734
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "Pos:",IDC_PROP_POS,0,0,36,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_X,36,0,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_XSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,0,11,12
+    EDITTEXT        IDC_Y,84,0,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_YSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,160,0,11,12
+    CTEXT           "Size:",IDC_PROP_SIZE,0,12,36,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_W,36,12,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_WSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,12,11,12
+    EDITTEXT        IDC_H,84,12,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,160,12,11,12
+    CTEXT           "Operation:",IDC_PROP_OPERATION,0,30,72,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_OPERATION,78,30,54,60,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Slant:",IDC_PROP_SLANT,0,48,72,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SLANT,78,48,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLANTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,48,11,12
+    CTEXT           "Angle:",IDC_PROP_ANGLE,0,60,72,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_ANGLE,78,60,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANGLESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,60,11,12
+    CTEXT           "Corner:",IDC_PROP_CORNER,0,72,36,12,SS_CENTERIMAGE
+    CONTROL         "CornerSeparate",IDC_ROUNDSEPARATE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,6,84,72,11
+    CONTROL         "XYSeparate",IDC_ROUNDXYSEPARATE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,78,84,54,11
+    CTEXT           "X",IDC_STATIC,0,96,36,12,SS_CENTERIMAGE
+    CTEXT           "Y",IDC_STATIC,0,108,36,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_ROUNDX1,36,96,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ROUNDX1SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,96,11,12
+    EDITTEXT        IDC_ROUNDY1,36,108,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ROUNDY1SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,108,11,12
+    PUSHBUTTON      "R",IDC_CORNERC1,72,96,12,24
+    EDITTEXT        IDC_ROUNDX2,84,96,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ROUNDX2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,96,11,12
+    EDITTEXT        IDC_ROUNDY2,84,108,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ROUNDY2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,108,11,12
+    PUSHBUTTON      "R",IDC_CORNERC2,120,96,12,24
+    CTEXT           "X",IDC_STATIC,0,126,36,12,SS_CENTERIMAGE
+    CTEXT           "Y",IDC_STATIC,0,138,36,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_ROUNDX4,36,126,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ROUNDX4SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,126,11,12
+    EDITTEXT        IDC_ROUNDY4,36,138,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ROUNDY4SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,138,11,12
+    PUSHBUTTON      "R",IDC_CORNERC4,72,126,12,24
+    EDITTEXT        IDC_ROUNDX3,84,126,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ROUNDX3SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,126,11,12
+    EDITTEXT        IDC_ROUNDY3,84,138,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ROUNDY3SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,138,11,12
+    PUSHBUTTON      "R",IDC_CORNERC3,120,126,12,24
+    CTEXT           "Color",IDC_PROP_COLOR,42,156,48,12,SS_CENTERIMAGE
+    CTEXT           "Alpha",IDC_PROP_ALPHA,84,156,48,12,SS_CENTERIMAGE
+    CTEXT           "Fill1",IDC_PROP_FILL1,0,168,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_COLOR1,"Button",BS_OWNERDRAW | WS_TABSTOP,48,168,48,12
+    EDITTEXT        IDC_ALPHA1,96,168,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHA1SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,168,11,12
+    CTEXT           "Fill2",IDC_PROP_FILL2,0,180,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_COLOR2,"Button",BS_OWNERDRAW | WS_TABSTOP,48,180,48,12
+    EDITTEXT        IDC_ALPHA2,96,180,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHA2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,180,11,12
+    CTEXT           "Border",IDC_PROP_BORDER,0,192,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_COLOR3,"Button",BS_OWNERDRAW | WS_TABSTOP,48,192,48,12
+    EDITTEXT        IDC_ALPHA3,96,192,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHA3SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,192,11,12
+    CTEXT           "Gradation",IDC_PROP_GRADATION,0,210,48,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_GRADATIONTYPE,48,210,48,66,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_LINEAR,96,210,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_LINEARSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,210,11,12
+    CTEXT           "Smoother:",IDC_PROP_SMOOTHER,0,222,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SMOOTHER,96,222,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SMOOTHERSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,222,11,12
+    CONTROL         "Fill",IDC_FILL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,240,66,12
+    CONTROL         "Border",IDC_BORDER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,252,66,12
+    COMBOBOX        IDC_BORDERTYPE,66,252,66,48,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "BorderAsFill",IDC_BORDERASFILL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,264,132,12
+    CTEXT           "BorderWidth:",IDC_PROP_BORDERWIDTH,0,276,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_WIDTH,66,276,66,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_WIDTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,276,11,12
+    CTEXT           "BorderJoin:",IDC_PROP_BORDERJOIN,0,288,66,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_BORDERJOIN,"ComboBoxEx32",CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,66,288,66,66
+    CTEXT           "MasterAlpha:",IDC_PROP_MASTERALPHA,0,306,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_ALPHA,66,306,66,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHASPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,306,11,12
+    CTEXT           "Diffuse:",IDC_PROP_DIFFUSE,0,318,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_DIFFUSE,66,318,66,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_DIFFUSESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,318,11,12
+    CONTROL         "AntiAlias",IDC_ANTIALIAS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,330,78,12
+    LTEXT           " Specular",IDC_PROP_SPEC,0,348,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Light1",IDC_PROP_SPEC_LIGHT1,48,360,42,12,SS_CENTERIMAGE
+    CTEXT           "Light2",IDC_PROP_SPEC_LIGHT2,90,360,42,12,SS_CENTERIMAGE
+    CTEXT           "Type:",IDC_PROP_SPEC_TYPE,0,372,48,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_SPECULARTYPE,48,372,42,78,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SPECULARTYPE2,90,372,42,78,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Direction:",IDC_PROP_SPEC_DIR,0,390,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SPECULARDIR,48,390,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPECULARDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,390,11,12
+    EDITTEXT        IDC_SPECULARDIR2,90,390,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPECULARDIR2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,142,390,11,12
+    CTEXT           "Specular:",IDC_PROP_SPEC_SPEC,0,402,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SPECULAR,48,402,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPECULARSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,402,11,12
+    EDITTEXT        IDC_SPECULAR2,90,402,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPECULAR2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,142,402,11,12
+    CTEXT           "Highlight:",IDC_PROP_SPEC_HILIGHT,0,414,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_HIGHLIGHT,48,414,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,414,11,12
+    EDITTEXT        IDC_HIGHLIGHT2,90,414,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHT2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,142,414,11,12
+    CTEXT           "HighlightW:",IDC_PROP_SPEC_HILIGHTW,0,426,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_HIGHLIGHTWIDTH,48,426,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHTWIDTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,426,11,12
+    EDITTEXT        IDC_HIGHLIGHTWIDTH2,90,426,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHTWIDTH2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,142,426,11,12
+    CTEXT           "Ambient:",IDC_PROP_SPEC_AMBIENT,0,438,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_AMBIENT,48,438,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_AMBIENTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,438,11,12
+    EDITTEXT        IDC_AMBIENT2,90,438,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_AMBIENT2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,142,438,11,12
+    LTEXT           " Emboss",IDC_PROP_EMBOSS,0,456,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Direction:",IDC_PROP_EMBOSS_DIR,0,468,72,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_EMBOSSDIRENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,78,468,12,12
+    EDITTEXT        IDC_EMBOSSDIR,90,468,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_EMBOSSDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,468,11,12
+    CTEXT           "Width:",IDC_PROP_EMBOSS_WIDTH,0,480,72,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EMBOSSWIDTH,78,480,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_EMBOSSWIDTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,480,11,12
+    CTEXT           "Depth(Border):",IDC_PROP_EMBOSS_DEPTHB,0,492,72,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EMBOSSDEPTH,78,492,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_EMBOSSDEPTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,492,11,12
+    CTEXT           "Depth(Fill):",IDC_PROP_EMBOSS_DEPTHF,0,504,72,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EMBOSSDEPTH2,78,504,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_EMBOSSDEPTH2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,504,11,12
+    LTEXT           " Texture",IDC_PROP_TEX,0,522,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Type:",IDC_PROP_TEX_TYPE,0,534,48,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_TEXTURETYPE,"ComboBoxEx32",CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,48,534,84,144
+    CTEXT           "Intensity:",IDC_PROP_TEX_INTENSITY,0,551,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TEXTURE,48,551,84,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTURESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,551,11,12
+    CONTROL         "UseTextureAlpha",IDC_TEXTUREALPHA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,48,564,84,12
+    CTEXT           "X",IDC_PROP_TEX_X,48,582,42,12,SS_CENTERIMAGE
+    CTEXT           "Y",IDC_PROP_TEX_Y,90,582,42,12,SS_CENTERIMAGE
+    CONTROL         "XY Separate",IDC_TEXTUREZOOMXYSEPA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,48,594,84,12
+    CTEXT           "Zoom:",IDC_PROP_TEX_ZOOM,0,606,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TEXTUREZOOMX,48,606,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREZOOMXSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,606,11,12
+    EDITTEXT        IDC_TEXTUREZOOMY,90,606,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREZOOMYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,606,11,12
+    CTEXT           "Offset:",IDC_PROP_TEX_OFF,0,618,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TEXTUREOFFX,48,618,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREOFFXSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,618,11,12
+    EDITTEXT        IDC_TEXTUREOFFY,90,618,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREOFFYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,618,11,12
+    CTEXT           "Rotate:",IDC_PROP_TEX_ROT,0,630,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TEXTUREROT,48,630,84,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREROTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,630,11,12
+    LTEXT           " Shadow",IDC_PROP_SHADOW,0,647,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Drop",IDC_PROP_SHADOW_DROP,48,658,42,12,SS_CENTERIMAGE
+    CTEXT           "Inside",IDC_PROP_SHADOW_INSIDE,90,658,42,12,SS_CENTERIMAGE
+    CTEXT           "Color:",IDC_PROP_SHADOW_COLOR,0,670,54,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_SHADOWCOLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,48,670,42,12
+    CONTROL         "Color",IDC_ISHADOWCOLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,90,670,42,12
+    CTEXT           "Direction:",IDC_PROP_SHADOW_DIR,0,682,48,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_SHADOWDIRENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,48,682,12,12
+    EDITTEXT        IDC_SHADOWDIR,60,682,30,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SHADOWDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,682,11,12
+    CONTROL         "",IDC_ISHADOWDIRENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,90,682,12,12
+    EDITTEXT        IDC_ISHADOWDIR,102,682,30,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ISHADOWDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,142,682,11,12
+    CTEXT           "Offset:",IDC_PROP_SHADOW_OFFSET,0,694,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SHADOWOFFSET,48,694,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SHADOWOFFSETSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,694,11,12
+    EDITTEXT        IDC_ISHADOWOFFSET,90,694,42,13,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ISHADOWOFFSETSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,142,694,11,12
+    CTEXT           "Density:",IDC_PROP_SHADOW_DENSITY,0,706,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SHADOWDENSITY,48,706,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SHADOWDENSITYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,706,11,12
+    EDITTEXT        IDC_ISHADOWDENSITY,90,706,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ISHADOWDENSITYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,142,706,11,12
+    CTEXT           "Diffuse:",IDC_PROP_SHADOW_DIFFUSE,0,718,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SHADOWDIFFUSE,48,718,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SHADOWDIFFUSESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,718,11,12
+    EDITTEXT        IDC_ISHADOWDIFFUSE,90,718,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ISHADOWDIFFUSESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,142,718,11,12
+    PUSHBUTTON      "Cp",IDC_COPYCOODINATE,132,0,12,12,BS_BITMAP
+END
+
+IDD_PROPSHAPE DIALOGEX 0, 0, 326, 698
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "Pos:",IDC_PROP_POS,0,0,36,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_X,36,0,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_XSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,156,0,11,12
+    EDITTEXT        IDC_Y,84,0,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_YSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,168,0,11,12
+    CTEXT           "Size:",IDC_PROP_SIZE,0,12,36,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_W,36,12,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_WSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,156,12,11,12
+    EDITTEXT        IDC_H,84,12,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,168,12,11,12
+    CTEXT           "Operation:",IDC_PROP_OPERATION,0,30,72,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_OPERATION,78,30,54,60,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Slant:",IDC_PROP_SLANT,0,48,72,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SLANT,78,48,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLANTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,48,11,12
+    CTEXT           "Angle:",IDC_PROP_ANGLE,0,60,72,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_ANGLE,78,60,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANGLESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,60,11,12
+    CTEXT           "Color",IDC_PROP_COLOR,42,78,48,12,SS_CENTERIMAGE
+    CTEXT           "Alpha",IDC_PROP_ALPHA,90,78,42,12,SS_CENTERIMAGE
+    CTEXT           "Fill1",IDC_PROP_FILL1,0,90,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_COLOR1,"Button",BS_OWNERDRAW | WS_TABSTOP,48,90,48,12
+    EDITTEXT        IDC_ALPHA1,96,90,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHA1SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,90,11,12
+    CTEXT           "Fill2",IDC_PROP_FILL2,0,102,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_COLOR2,"Button",BS_OWNERDRAW | WS_TABSTOP,48,102,48,12
+    EDITTEXT        IDC_ALPHA2,96,102,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHA2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,102,11,12
+    CTEXT           "Border",IDC_PROP_BORDER,0,114,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_COLOR3,"Button",BS_OWNERDRAW | WS_TABSTOP,48,114,48,12
+    EDITTEXT        IDC_ALPHA3,96,114,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHA3SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,114,11,12
+    CTEXT           "Gradation:",IDC_PROP_GRADATION,0,132,48,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_GRADATIONTYPE,48,132,48,66,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_LINEAR,96,132,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_LINEARSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,132,11,12
+    CTEXT           "Smoother:",IDC_PROP_SMOOTHER,0,144,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SMOOTHER,96,144,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SMOOTHERSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,144,11,12
+    CONTROL         "Close",IDC_CLOSE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,162,66,12
+    CONTROL         "Fill",IDC_FILL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,174,66,12
+    CONTROL         "Border",IDC_BORDER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,186,66,12
+    COMBOBOX        IDC_BORDERTYPE,66,186,66,48,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "BorderAsFill",IDC_BORDERASFILL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,198,66,12
+    CTEXT           "BorderWidth:",IDC_PROP_BORDERWIDTH,0,210,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_WIDTH,66,210,66,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_WIDTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,210,11,12
+    CTEXT           "BorderJoin:",IDC_PROP_BORDERJOIN,0,222,66,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_BORDERJOIN,"ComboBoxEx32",CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,66,222,66,66
+    CTEXT           "LineCap:",IDC_PROP_LINECAP,0,240,66,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_LINECAP,"ComboBoxEx32",CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,66,241,66,84
+    CTEXT           "MasterAlpha:",IDC_PROP_MASTERALPHA,0,258,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_ALPHA,66,258,66,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHASPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,258,11,12
+    CTEXT           "Diffuse:",IDC_PROP_DIFFUSE,0,270,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_DIFFUSE,66,270,66,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_DIFFUSESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,270,11,12
+    CONTROL         "AntiAlias",IDC_ANTIALIAS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,288,72,12
+    LTEXT           " Specular",IDC_PROP_SPEC,0,306,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Light1",IDC_PROP_SPEC_LIGHT1,48,318,42,12,SS_CENTERIMAGE
+    CTEXT           "Light2",IDC_PROP_SPEC_LIGHT2,90,318,42,12,SS_CENTERIMAGE
+    CTEXT           "Type:",IDC_PROP_SPEC_TYPE,0,330,48,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_SPECULARTYPE,48,330,42,78,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SPECULARTYPE2,90,330,42,78,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Direction:",IDC_PROP_SPEC_DIR,0,348,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SPECULARDIR,48,348,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPECULARDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,348,11,12
+    EDITTEXT        IDC_SPECULARDIR2,90,348,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPECULARDIR2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,348,11,12
+    CTEXT           "Specular:",IDC_PROP_SPEC_SPEC,0,360,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SPECULAR,48,360,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPECULARSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,360,11,12
+    EDITTEXT        IDC_SPECULAR2,90,360,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPECULAR2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,360,11,12
+    CTEXT           "Highlight:",IDC_PROP_SPEC_HILIGHT,0,372,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_HIGHLIGHT,48,372,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,372,11,12
+    EDITTEXT        IDC_HIGHLIGHT2,90,372,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHT2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,372,11,12
+    CTEXT           "HighlightW:",IDC_PROP_SPEC_HILIGHTW,0,384,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_HIGHLIGHTWIDTH,48,384,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHTWIDTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,384,11,12
+    EDITTEXT        IDC_HIGHLIGHTWIDTH2,90,384,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHTWIDTH2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,384,11,12
+    CTEXT           "Ambient:",IDC_PROP_SPEC_AMBIENT,0,396,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_AMBIENT,48,396,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_AMBIENTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,396,11,12
+    EDITTEXT        IDC_AMBIENT2,90,396,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_AMBIENT2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,396,11,12
+    LTEXT           " Emboss",IDC_PROP_EMBOSS,0,414,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Direction:",IDC_PROP_EMBOSS_DIR,0,426,72,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_EMBOSSDIRENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,78,426,12,12
+    EDITTEXT        IDC_EMBOSSDIR,90,426,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_EMBOSSDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,426,11,12
+    CTEXT           "Width:",IDC_PROP_EMBOSS_WIDTH,0,438,72,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EMBOSSWIDTH,78,438,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_EMBOSSWIDTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,438,11,12
+    CTEXT           "Depth(Border):",IDC_PROP_EMBOSS_DEPTHB,0,450,72,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EMBOSSDEPTH,78,450,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_EMBOSSDEPTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,450,11,12
+    CTEXT           "Depth(Fill):",IDC_PROP_EMBOSS_DEPTHF,0,462,72,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EMBOSSDEPTH2,78,462,54,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_EMBOSSDEPTH2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,462,11,12
+    LTEXT           " Texture",IDC_PROP_TEX,0,481,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Type:",IDC_PROP_TEX_TYPE,0,492,48,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_TEXTURETYPE,"ComboBoxEx32",CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,48,492,84,144
+    CTEXT           "Intensity:",IDC_PROP_TEX_INTENSITY,0,510,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TEXTURE,48,510,84,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTURESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,510,11,12
+    CONTROL         "UseTextureAlpha",IDC_TEXTUREALPHA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,48,522,84,12
+    CTEXT           "X",IDC_PROP_TEX_X,48,540,42,12,SS_CENTERIMAGE
+    CTEXT           "Y",IDC_PROP_TEX_Y,90,540,42,12,SS_CENTERIMAGE
+    CTEXT           "Zoom:",IDC_PROP_TEX_ZOOM,0,564,48,12,SS_CENTERIMAGE
+    CONTROL         "XY Separate",IDC_TEXTUREZOOMXYSEPA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,48,552,84,12
+    EDITTEXT        IDC_TEXTUREZOOMX,48,564,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREZOOMXSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,564,11,12
+    EDITTEXT        IDC_TEXTUREZOOMY,90,564,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREZOOMYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,564,11,12
+    CTEXT           "Offset:",IDC_PROP_TEX_OFF,0,576,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TEXTUREOFFX,48,576,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREOFFXSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,576,11,12
+    EDITTEXT        IDC_TEXTUREOFFY,90,576,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREOFFYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,576,11,12
+    CTEXT           "Rotate:",IDC_PROP_TEX_ROT,0,588,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TEXTUREROT,48,588,84,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREROTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,588,11,12
+    LTEXT           " Shadow",IDC_PROP_SHADOW,0,606,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Drop",IDC_PROP_SHADOW_DROP,48,617,42,12,SS_CENTERIMAGE
+    CTEXT           "Inside",IDC_PROP_SHADOW_INSIDE,90,617,42,12,SS_CENTERIMAGE
+    CTEXT           "Color:",IDC_PROP_SHADOW_COLOR,0,630,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_SHADOWCOLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,48,630,42,12
+    CONTROL         "Color",IDC_ISHADOWCOLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,90,630,42,12
+    CTEXT           "Direction:",IDC_PROP_SHADOW_DIR,0,642,48,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_SHADOWDIRENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,48,642,12,12
+    EDITTEXT        IDC_SHADOWDIR,60,642,30,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SHADOWDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,642,11,12
+    CONTROL         "",IDC_ISHADOWDIRENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,90,642,12,12
+    EDITTEXT        IDC_ISHADOWDIR,102,642,30,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ISHADOWDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,642,11,12
+    CTEXT           "Offset:",IDC_PROP_SHADOW_OFFSET,0,654,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SHADOWOFFSET,48,654,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SHADOWOFFSETSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,654,11,12
+    EDITTEXT        IDC_ISHADOWOFFSET,90,654,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ISHADOWOFFSETSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,654,11,12
+    CTEXT           "Density:",IDC_PROP_SHADOW_DENSITY,0,666,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SHADOWDENSITY,48,666,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SHADOWDENSITYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,666,11,12
+    EDITTEXT        IDC_ISHADOWDENSITY,90,666,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ISHADOWDENSITYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,666,11,12
+    CTEXT           "Diffuse:",IDC_PROP_SHADOW_DIFFUSE,0,678,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SHADOWDIFFUSE,48,678,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SHADOWDIFFUSESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,678,11,12
+    EDITTEXT        IDC_ISHADOWDIFFUSE,90,678,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ISHADOWDIFFUSESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,678,11,12
+    PUSHBUTTON      "Cp",IDC_COPYCOODINATE,132,0,12,12,BS_BITMAP
+END
+
+IDD_PROPTEXT DIALOGEX 0, 0, 320, 806
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "Pos:",IDC_PROP_POS,0,0,36,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_X,36,0,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_XSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,156,0,11,12
+    EDITTEXT        IDC_Y,84,0,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_YSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,168,0,11,12
+    CTEXT           "Size:",IDC_PROP_SIZE,0,12,36,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_W,36,12,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_WSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,156,12,11,12
+    EDITTEXT        IDC_H,84,12,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,168,12,11,12
+    CTEXT           "Operation:",IDC_PROP_OPERATION,0,24,60,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_OPERATION,84,24,48,60,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Slant:",IDC_PROP_SLANT,0,36,60,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SLANT,84,36,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SLANTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,36,11,12
+    CTEXT           "Angle:",IDC_PROP_ANGLE,0,48,60,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_ANGLE,84,48,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANGLESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,48,11,12
+    CTEXT           "Text:",IDC_PROP_TEXT,0,60,36,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TEXT,6,73,126,12,ES_MULTILINE | ES_AUTOHSCROLL
+    CTEXT           "Font:",IDC_PROP_FONT,0,84,36,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_FONT,"ComboBoxEx32",CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP,6,96,126,272
+    CTEXT           "FontSize:",IDC_PROP_FONTSIZE,0,120,54,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_FONTSIZE,54,120,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_FONTSIZESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,120,11,12
+    COMBOBOX        IDC_FONTSIZEUNIT,102,120,30,78,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "FontAspect:",IDC_PROP_FONTASPECT,0,132,54,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_FONTASPECT,54,132,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_FONTASPECTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,132,11,12
+    CTEXT           "FontSpacing:",IDC_PROP_FONTSPACING,0,144,54,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_FONTSPACING,54,144,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_FONTSPACINGSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,144,11,12
+    CONTROL         "Fix",IDC_FIX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,102,144,42,12
+    CONTROL         "Bold",IDC_BOLD,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,162,42,8
+    CONTROL         "Italic",IDC_ITALIC,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,42,162,42,8
+    CONTROL         "AutoSize",IDC_AUTOSIZE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,84,162,54,8
+    CONTROL         "Small Font Opt",IDC_SMALLFONTOPT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,174,90,8
+    CONTROL         "UseTextPath",IDC_USETEXTPATH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,192,84,12
+    CONTROL         "KeepDir",IDC_KEEPDIR,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,84,192,48,12
+    CTEXT           "PathOffset:",IDC_PROP_FONTSPACING3,0,205,54,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_PATHOFFSET,54,205,78,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_PATHOFFSETSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,205,11,12
+    CTEXT           "Color",IDC_PROP_COLOR,42,222,48,12,SS_CENTERIMAGE
+    CTEXT           "Alpha",IDC_PROP_ALPHA,90,222,42,12,SS_CENTERIMAGE
+    CTEXT           "Fill1",IDC_PROP_FILL1,0,234,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_COLOR1,"Button",BS_OWNERDRAW | WS_TABSTOP,48,234,48,12
+    EDITTEXT        IDC_ALPHA1,96,234,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHA1SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,234,11,12
+    CTEXT           "Fill2",IDC_PROP_FILL2,0,246,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_COLOR2,"Button",BS_OWNERDRAW | WS_TABSTOP,48,246,48,12
+    EDITTEXT        IDC_ALPHA2,96,246,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHA2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,246,11,12
+    CTEXT           "Boder",IDC_PROP_BORDER,0,258,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_COLOR3,"Button",BS_OWNERDRAW | WS_TABSTOP,48,258,48,12
+    EDITTEXT        IDC_ALPHA3,96,258,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHA3SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,258,11,12
+    CTEXT           "Gradation:",IDC_PROP_GRADATION,0,274,48,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_GRADATIONTYPE,48,274,48,66,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_LINEAR,96,274,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_LINEARSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,276,11,12
+    CTEXT           "Smoother:",IDC_PROP_SMOOTHER,0,288,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SMOOTHER,96,288,36,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SMOOTHERSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,288,11,12
+    CONTROL         "Fill",IDC_FILL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,306,66,12
+    CONTROL         "Border",IDC_BORDER,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,318,66,12
+    COMBOBOX        IDC_BORDERTYPE,66,318,66,48,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "BorderAsFill",IDC_BORDERASFILL,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,330,66,12
+    CTEXT           "BorderWidth:",IDC_PROP_BORDERWIDTH,0,348,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_WIDTH,66,348,66,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_WIDTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,348,11,12
+    CTEXT           "BorderJoin:",IDC_PROP_BORDERJOIN,0,360,66,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_BORDERJOIN,"ComboBoxEx32",CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,66,360,66,66
+    CTEXT           "MasterAlpha:",IDC_PROP_MASTERALPHA,0,376,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_ALPHA,66,376,66,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ALPHASPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,376,11,12
+    CTEXT           "Diffuse:",IDC_PROP_DIFFUSE,0,388,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_DIFFUSE,66,388,66,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_DIFFUSESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,388,11,12
+    CONTROL         "AntiAlias",IDC_ANTIALIAS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,402,72,12
+    LTEXT           " Specular",IDC_PROP_SPEC,0,420,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Light1",IDC_PROP_SPEC_LIGHT1,48,430,42,12,SS_CENTERIMAGE
+    CTEXT           "Light2",IDC_PROP_SPEC_LIGHT2,90,430,42,12,SS_CENTERIMAGE
+    CTEXT           "Type:",IDC_PROP_SPEC_TYPE,0,444,48,12,SS_CENTERIMAGE
+    COMBOBOX        IDC_SPECULARTYPE,48,444,42,78,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SPECULARTYPE2,90,444,42,78,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CTEXT           "Direction:",IDC_PROP_SPEC_DIR,0,462,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SPECULARDIR,48,462,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPECULARDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,138,462,11,12
+    EDITTEXT        IDC_SPECULARDIR2,90,462,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SPECULARDIR2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,462,11,12
+    CTEXT           "Specular:",IDC_PROP_SPEC_SPEC,0,474,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SPECULAR,48,474,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPECULARSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,138,473,11,12
+    EDITTEXT        IDC_SPECULAR2,90,474,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPECULAR2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,474,11,12
+    CTEXT           "Highlight:",IDC_PROP_SPEC_HILIGHT,0,486,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_HIGHLIGHT,48,486,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,138,486,11,12
+    EDITTEXT        IDC_HIGHLIGHT2,90,486,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHT2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,486,11,12
+    CTEXT           "HighlightW:",IDC_PROP_SPEC_HILIGHTW,0,498,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_HIGHLIGHTWIDTH,48,498,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHTWIDTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,138,497,11,12
+    EDITTEXT        IDC_HIGHLIGHTWIDTH2,90,498,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_HIGHLIGHTWIDTH2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,498,11,12
+    CTEXT           "Ambient:",IDC_PROP_SPEC_AMBIENT,0,510,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_AMBIENT,48,510,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_AMBIENTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,138,510,11,12
+    EDITTEXT        IDC_AMBIENT2,90,510,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_AMBIENT2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,510,11,12
+    LTEXT           " Emboss",IDC_PROP_EMBOSS,0,528,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Direction:",IDC_PROP_EMBOSS_DIR,0,540,66,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_EMBOSSDIRENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,66,540,12,12
+    EDITTEXT        IDC_EMBOSSDIR,84,540,48,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_EMBOSSDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,540,11,12
+    CTEXT           "Width:",IDC_PROP_EMBOSS_WIDTH,0,552,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EMBOSSWIDTH,66,552,66,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_EMBOSSWIDTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,552,11,12
+    CTEXT           "Depth(Border):",IDC_PROP_EMBOSS_DEPTHB,0,564,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EMBOSSDEPTH,66,564,66,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_EMBOSSDEPTHSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,564,11,12
+    CTEXT           "Depth(Fill):",IDC_PROP_EMBOSS_DEPTHF,0,576,66,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EMBOSSDEPTH2,66,576,66,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_EMBOSSDEPTH2SPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,576,11,12
+    LTEXT           " Texture",IDC_PROP_TEX,0,594,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Type:",IDC_PROP_TEX_TYPE,0,606,48,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_TEXTURETYPE,"ComboBoxEx32",CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP,48,606,84,144
+    CTEXT           "Intensity:",IDC_PROP_TEX_INTENSITY,0,624,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TEXTURE,48,624,84,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTURESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,624,11,12
+    CONTROL         "UseTextureAlpha",IDC_TEXTUREALPHA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,48,636,84,12
+    CTEXT           "X",IDC_PROP_TEX_X,48,648,42,8,SS_CENTERIMAGE
+    CTEXT           "Y",IDC_PROP_TEX_Y,90,648,42,8,SS_CENTERIMAGE
+    CTEXT           "Zoom:",IDC_PROP_TEX_ZOOM,0,672,48,12,SS_CENTERIMAGE
+    CONTROL         "XY Separate",IDC_TEXTUREZOOMXYSEPA,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,48,660,84,12
+    EDITTEXT        IDC_TEXTUREZOOMX,48,672,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREZOOMXSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,672,11,12
+    EDITTEXT        IDC_TEXTUREZOOMY,90,672,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREZOOMYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,672,11,12
+    CTEXT           "Offset:",IDC_PROP_TEX_OFF,0,684,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TEXTUREOFFX,48,684,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREOFFXSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,132,684,11,12
+    EDITTEXT        IDC_TEXTUREOFFY,90,684,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREOFFYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,684,11,12
+    CTEXT           "Rotate:",IDC_PROP_TEX_ROT,0,696,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_TEXTUREROT,48,696,84,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_TEXTUREROTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,696,11,12
+    LTEXT           " Shadow",IDC_PROP_SHADOW,0,714,132,10,SS_CENTERIMAGE,WS_EX_STATICEDGE
+    CTEXT           "Drop",IDC_PROP_SHADOW_DROP,48,727,42,12,SS_CENTERIMAGE
+    CTEXT           "Inside",IDC_PROP_SHADOW_INSIDE,90,727,42,12,SS_CENTERIMAGE
+    CTEXT           "Color:",IDC_PROP_SHADOW_COLOR,0,738,48,12,SS_CENTERIMAGE
+    CONTROL         "Color",IDC_SHADOWCOLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,48,738,42,12
+    CONTROL         "Color",IDC_ISHADOWCOLOR,"Button",BS_OWNERDRAW | WS_TABSTOP,90,738,42,12
+    CTEXT           "Direction:",IDC_PROP_SHADOW_DIR,0,750,48,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_SHADOWDIRENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,48,750,12,12
+    EDITTEXT        IDC_SHADOWDIR,60,750,30,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_SHADOWDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,751,11,12
+    CONTROL         "",IDC_ISHADOWDIRENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,90,750,12,12
+    EDITTEXT        IDC_ISHADOWDIR,102,750,30,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "",IDC_ISHADOWDIRSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,156,751,11,12
+    CTEXT           "Offset:",IDC_PROP_SHADOW_OFFSET,0,762,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SHADOWOFFSET,48,762,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SHADOWOFFSETSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,762,11,12
+    EDITTEXT        IDC_ISHADOWOFFSET,90,762,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ISHADOWOFFSETSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,156,762,11,12
+    CTEXT           "Density:",IDC_PROP_SHADOW_DENSITY,0,774,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SHADOWDENSITY,48,774,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SHADOWDENSITYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,775,11,12
+    EDITTEXT        IDC_ISHADOWDENSITY,90,774,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ISHADOWDENSITYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,156,775,11,12
+    CTEXT           "Diffuse:",IDC_PROP_SHADOW_DIFFUSE,0,786,48,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_SHADOWDIFFUSE,48,786,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_SHADOWDIFFUSESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,144,786,11,12
+    EDITTEXT        IDC_ISHADOWDIFFUSE,90,786,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ISHADOWDIFFUSESPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,156,786,11,12
+    PUSHBUTTON      "Cp",IDC_COPYCOODINATE,132,0,12,12,BS_BITMAP
+END
+
+IDD_RENAME DIALOGEX 0, 0, 186, 50
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Primitive Name"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_NAME,7,7,172,14,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,75,29,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,29,50,14
+END
+
+IDD_SETUP DIALOGEX 0, 0, 310, 225
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Setup"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,246,204,50,14
+    EDITTEXT        IDC_DOCDIR,12,18,270,12,ES_AUTOHSCROLL
+    LTEXT           "Default .skin files Folder:",IDC_STATIC,12,6,90,8
+    PUSHBUTTON      "Set",IDC_DOCDIRSET,282,18,18,12
+    EDITTEXT        IDC_IMAGEDIR,12,48,270,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Set",IDC_IMAGEDIRSET,282,48,18,12
+    LTEXT           "Default Image files Folder:",IDC_STATIC,12,36,90,8
+    EDITTEXT        IDC_LIBDIR,12,78,270,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Set",IDC_LIBDIRSET,282,78,18,12
+    LTEXT           "Default Lib files Folder:",IDC_STATIC,12,66,90,8
+    EDITTEXT        IDC_PALDIR,12,109,270,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Set",IDC_PALDIRSET,282,109,18,12
+    LTEXT           "Default Palete Folder:",IDC_STATIC,12,96,90,8
+    CONTROL         "Tools AlwaysOnFront",IDC_ALWAYSFRONT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,126,108,12
+    CTEXT           "Default Grid Size:",IDC_STATIC,78,144,66,12
+    EDITTEXT        IDC_DEFAULTGRIDX,150,144,36,12,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_DEFAULTGRIDY,192,144,36,12,ES_CENTER | ES_AUTOHSCROLL
+    EDITTEXT        IDC_UNDOLEVEL,84,204,36,12,ES_CENTER | ES_AUTOHSCROLL
+    CTEXT           "Undo Level:",IDC_STATIC,12,204,66,12
+    CONTROL         "Display Primitive Guide",IDC_DISPGUIDE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,78,162,102,12
+    CONTROL         "Enable Grid",IDC_GRIDENABLE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,144,60,12
+    CONTROL         "Display Grid",IDC_GRIDDISP,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,162,60,12
+    CONTROL         "Move Primitive by Cursor on TreeView",IDC_CURSORMODE,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,180,156,12
+END
+
+IDD_TOOL DIALOGEX 0, 0, 29, 252
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_CLIENTEDGE
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "A",IDC_SELECT,"Button",BS_AUTOCHECKBOX | BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,6,6,18,18
+    CONTROL         "H",IDC_HANDMOVE,"Button",BS_AUTOCHECKBOX | BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,6,24,18,18
+    CONTROL         "R",IDC_RECT,"Button",BS_AUTOCHECKBOX | BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,6,42,18,18
+    CONTROL         "E",IDC_ELLIPSE,"Button",BS_AUTOCHECKBOX | BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,6,60,18,18
+    CONTROL         "P",IDC_POLYGON,"Button",BS_AUTOCHECKBOX | BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,6,78,18,18
+    CONTROL         "T",IDC_TEXT,"Button",BS_AUTOCHECKBOX | BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,6,96,18,18
+    CONTROL         "S",IDC_SHAPE,"Button",BS_AUTOCHECKBOX | BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,6,114,18,18
+    CONTROL         "C",IDC_CURVE,"Button",BS_AUTOCHECKBOX | BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,6,132,18,18
+    CONTROL         "L",IDC_LINES,"Button",BS_AUTOCHECKBOX | BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,6,150,18,18
+    CONTROL         "G",IDC_GRADATION,"Button",BS_AUTOCHECKBOX | BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,6,168,18,18
+    CONTROL         "M",IDC_TRIMMING,"Button",BS_AUTOCHECKBOX | BS_BITMAP | BS_PUSHLIKE | WS_TABSTOP,6,186,18,18
+    PUSHBUTTON      "Image",IDC_IMAGE,6,210,18,18,BS_BITMAP | WS_GROUP
+    PUSHBUTTON      "Knob",IDC_KNOB,6,228,18,18,BS_BITMAP | WS_GROUP
+END
+
+IDD_TRANSFORM DIALOGEX 0, 0, 184, 63
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Transform"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,126,12,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,126,30,50,14
+    EDITTEXT        IDC_ZOOMX,30,6,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ZOOMY,30,25,48,12,ES_AUTOHSCROLL
+    LTEXT           "X",IDC_STATIC,12,6,12,12
+    LTEXT           "Y",IDC_STATIC,12,25,12,11
+    LTEXT           "%",IDC_STATIC,84,6,24,12
+    LTEXT           "%",IDC_STATIC,84,25,24,12
+    CONTROL         "Transform All Texts",IDC_ALLTEXT,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,42,90,12
+END
+
+IDD_TREE DIALOGEX 0, 0, 152, 253
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Tree"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_SPLASH DIALOGEX 0, 0, 202, 76
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Started",IDC_MSG1,12,42,162,12
+    RTEXT           "SkinMan Ver.",IDC_STATIC,42,6,41,12
+    LTEXT           "0",IDC_VER,90,6,24,8
+    LTEXT           "Copyright (c) 2007-2011 g200kg",IDC_STATIC,42,18,114,12
+    ICON            IDI_SKINMAN,IDC_STATIC,12,6,20,20
+END
+
+IDD_PROPANIM DIALOGEX 0, 0, 308, 626
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           " Layout",IDC_STATIC,0,0,144,12,0,WS_EX_STATICEDGE
+    CTEXT           "To",IDC_STATIC,102,18,42,8
+    CTEXT           "From",IDC_STATIC,48,18,36,8
+    CTEXT           "OffsetX:",IDC_STATIC,0,31,36,8
+    EDITTEXT        IDC_ANIMOFFXFROM,42,30,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMOFFXFROMSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,31,11,12
+    CONTROL         ">",IDC_ANIMOFFX,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,84,30,12,11
+    EDITTEXT        IDC_ANIMOFFXTO,102,30,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMOFFXTOSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,160,31,11,12
+    CTEXT           "OffsetY:",IDC_STATIC,0,42,36,8
+    EDITTEXT        IDC_ANIMOFFYFROM,42,42,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMOFFYFROMSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,42,11,12
+    CONTROL         ">",IDC_ANIMOFFY,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,84,42,12,11
+    EDITTEXT        IDC_ANIMOFFYTO,102,42,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMOFFYTOSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,160,42,11,12
+    CTEXT           "RotCenterX:",IDC_STATIC,0,54,42,8
+    EDITTEXT        IDC_ANIMROTCENTERX,42,54,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMROTCENTERXSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,84,54,11,12
+    CTEXT           "RotCenterY:",IDC_STATIC,0,66,42,8
+    EDITTEXT        IDC_ANIMROTCENTERY,42,66,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMROTCENTERYSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,84,66,11,12
+    CTEXT           "Angle:",IDC_STATIC,0,79,36,8
+    EDITTEXT        IDC_ANIMANGLEFROM,42,78,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMANGLEFROMSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,79,11,12
+    CONTROL         ">",IDC_ANIMANGLE,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,84,78,12,11
+    EDITTEXT        IDC_ANIMANGLETO,102,78,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMANGLETOSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,160,79,11,12
+    CTEXT           "Zoom:",IDC_STATIC,0,90,36,8
+    EDITTEXT        IDC_ANIMZOOMFROM,42,90,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMZOOMFROMSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,90,11,12
+    CONTROL         ">",IDC_ANIMZOOM,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,84,90,12,11
+    EDITTEXT        IDC_ANIMZOOMTO,102,90,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMZOOMTOSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,160,90,11,12
+    LTEXT           " Colors",IDC_STATIC,0,108,144,12,0,WS_EX_STATICEDGE
+    CTEXT           "To",IDC_STATIC,102,126,42,8
+    CTEXT           "From",IDC_STATIC,48,126,36,8
+    CTEXT           "Alpha:",IDC_STATIC,0,138,36,8
+    EDITTEXT        IDC_ANIMALPHAFROM,42,138,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMALPHAFROMSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,138,11,12
+    CONTROL         ">",IDC_ANIMALPHA,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,84,138,12,11
+    EDITTEXT        IDC_ANIMALPHATO,102,138,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMALPHATOSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,160,138,11,12
+    CTEXT           "Brightness:",IDC_STATIC,0,150,36,8
+    EDITTEXT        IDC_ANIMBRIGHTNESSFROM,42,150,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMBRIGHTNESSFROMSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,150,11,12
+    CONTROL         ">",IDC_ANIMBRIGHTNESS,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,84,150,12,11
+    EDITTEXT        IDC_ANIMBRIGHTNESSTO,102,150,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMBRIGHTNESSTOSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,160,150,11,12
+    CTEXT           "Contrast:",IDC_STATIC,0,162,36,8
+    EDITTEXT        IDC_ANIMCONTRASTFROM,42,162,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMCONTRASTFROMSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,162,11,12
+    CONTROL         ">",IDC_ANIMCONTRAST,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,84,162,12,11
+    EDITTEXT        IDC_ANIMCONTRASTTO,102,162,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMCONTRASTTOSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,160,162,11,12
+    CTEXT           "Saturation:",IDC_STATIC,0,174,36,8
+    EDITTEXT        IDC_ANIMSATURATIONFROM,42,174,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMSATURATIONFROMSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,174,11,12
+    CONTROL         ">",IDC_ANIMSATURATION,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,84,174,12,11
+    EDITTEXT        IDC_ANIMSATURATIONTO,102,174,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMSATURATIONTOSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,160,174,11,12
+    CTEXT           "Hue:",IDC_STATIC,0,186,36,8
+    EDITTEXT        IDC_ANIMHUEFROM,42,186,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMHUEFROMSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,186,11,12
+    CONTROL         ">",IDC_ANIMHUE,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,84,186,12,11
+    EDITTEXT        IDC_ANIMHUETO,102,186,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMHUETOSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,160,186,11,12
+    LTEXT           " Mask",IDC_STATIC,0,204,144,12,0,WS_EX_STATICEDGE
+    CONTROL         "UseAnimMask",IDC_USEANIMMASK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,220,66,11
+    CONTROL         "",IDC_ANIMMASKTYPE,"ComboBoxEx32",CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL,86,220,52,126
+    CTEXT           "Gradation:",IDC_STATIC,0,236,36,8
+    EDITTEXT        IDC_ANIMMASKGRADATION,42,236,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMMASKGRADATIONSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,236,11,12
+    CONTROL         "",IDC_ANIMMASKGRADATIONTYPE,"ComboBoxEx32",CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL,86,236,52,126
+    CTEXT           "Start:",IDC_STATIC,0,252,36,8
+    EDITTEXT        IDC_ANIMMASKSTARTFROM,42,252,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMMASKSTARTFROMSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,252,11,12
+    CONTROL         ">",IDC_ANIMMASKSTART,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,84,252,12,11
+    EDITTEXT        IDC_ANIMMASKSTARTTO,102,252,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMMASKSTARTTOSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,160,252,11,12
+    CTEXT           "Stop:",IDC_STATIC,0,264,36,8
+    EDITTEXT        IDC_ANIMMASKSTOPFROM,42,264,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMMASKSTOPFROMSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,264,11,12
+    CONTROL         ">",IDC_ANIMMASKSTOP,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,84,264,12,11
+    EDITTEXT        IDC_ANIMMASKSTOPTO,102,264,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_ANIMMASKSTOPTOSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,160,264,11,12
+    CONTROL         "UseFrameMask",IDC_USEFRAMEMASK,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,0,280,66,11
+    CTEXT           "Start:",IDC_STATIC,0,296,36,8
+    EDITTEXT        IDC_FRAMEMASKSTART,42,296,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_FRAMEMASKSTARTSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,296,11,12
+    CTEXT           "Stop:",IDC_STATIC,0,308,36,8
+    EDITTEXT        IDC_FRAMEMASKSTOP,42,308,42,12,ES_CENTER | ES_MULTILINE | ES_AUTOHSCROLL
+    CONTROL         "",IDC_FRAMEMASKSTOPSPIN,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,150,308,11,12
+END
+
+IDD_PROPS1 DIALOGEX 0, 0, 153, 254
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Properties"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CTEXT           "Type:",IDC_STATIC,0,6,60,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_FRAME,"Static",SS_GRAYFRAME,6,42,126,204
+    CONTROL         "",IDC_TYPE,"ComboBoxEx32",CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL,72,6,66,126
+    CONTROL         "Primitive",IDC_PAGEPRIM,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,6,24,60,12
+    CONTROL         "Animation",IDC_PAGEANIM,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE,72,24,60,12
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_SKINMAN ACCELERATORS 
+BEGIN
+    VK_F7,          ID_DISPLAY_COLOR,       VIRTKEY, NOINVERT
+    VK_F6,          ID_DISPLAY_PROPERTIES,  VIRTKEY, NOINVERT
+    VK_F5,          ID_DISPLAY_TREE,        VIRTKEY, NOINVERT
+    "Y",            ID_EDIT_REDO,           VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_PRIMITIVE_COPYPRIMITIVE, VIRTKEY, CONTROL, NOINVERT
+    "X",            ID_PRIMITIVE_CUTPRIMITIVE, VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_PRIMITIVE_PASTEPRIMITIVE, VIRTKEY, CONTROL, NOINVERT
+    VK_F2,          ID_PRIMITIVE_RENAME,    VIRTKEY, NOINVERT
+    "/",            ID_HELP_ABOUT,          ASCII,  ALT, NOINVERT
+    "?",            ID_HELP_ABOUT,          ASCII,  ALT, NOINVERT
+    VK_F1,          ID_PRIMITIVE_MOVETOTOPMOST, VIRTKEY, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_CURSORARROW         CURSOR                  "curarrow.cur"
+IDC_CURSORELLIPSE       CURSOR                  "curellipse.cur"
+IDC_CURSORGRADATION     CURSOR                  "curgradate.cur"
+IDC_CURSORHAND          CURSOR                  "curhand.cur"
+IDC_CURSORMOVE          CURSOR                  "curmove.cur"
+IDC_CURSORNESW          CURSOR                  "curnesw.cur"
+IDC_CURSORNWSE          CURSOR                  "curnwse.cur"
+IDC_CURSORPIPETTE       CURSOR                  "curpipette.cur"
+IDC_CURSORPOLYGON       CURSOR                  "curpolygon.cur"
+IDC_CURSORRECT          CURSOR                  "currect.cur"
+IDC_CURSORSHAPECLOSE    CURSOR                  "curshapeclose.cur"
+IDC_CURSORSHAPEEDIT     CURSOR                  "curshapeedit.cur"
+IDC_CURSORTEXT          CURSOR                  "curtext.cur"
+IDC_CURSORTRIMMING      CURSOR                  "trimming.cur"
+IDC_CURSORLINES         CURSOR                  "curlines.cur"
+IDC_CURSORARROWPLUS     CURSOR                  "cursorarrowplus.cur"
+IDC_CURSORSHAPEPLUS     CURSOR                  "cursorsh.cur"
+IDC_CURSORCURVEPLUS     CURSOR                  "cur00001.cur"
+IDC_CURSORCURVEEDIT     CURSOR                  "cur00002.cur"
+IDC_CURSORCURVECLOSE    CURSOR                  "cur00003.cur"
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_CANVASSIZE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 228
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_PNGOPTION, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 10
+    END
+
+    IDD_PROPELLIPSE, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 734
+    END
+
+    IDD_PROPIMAGE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 212
+        BOTTOMMARGIN, 470
+    END
+
+    IDD_PROPPOLYGON, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 680
+    END
+
+    IDD_PROPLINES, DIALOG
+    BEGIN
+        RIGHTMARGIN, 308
+        BOTTOMMARGIN, 644
+    END
+
+    IDD_PROPRECT, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 728
+    END
+
+    IDD_PROPSHAPE, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 692
+    END
+
+    IDD_PROPTEXT, DIALOG
+    BEGIN
+        RIGHTMARGIN, 254
+        BOTTOMMARGIN, 782
+    END
+
+    IDD_SETUP, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 201
+    END
+
+    IDD_TOOL, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 246
+    END
+
+    IDD_TRANSFORM, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 27
+    END
+
+    IDD_SPLASH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 195
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+    END
+
+    IDD_PROPANIM, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 620
+    END
+
+    IDD_PROPS1, DIALOG
+    BEGIN
+        RIGHTMARGIN, 152
+        BOTTOMMARGIN, 253
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "SkinMan"
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_SKINMAN             "SKINMAN"
+END
+
+#endif    // “ú–{Œê resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
