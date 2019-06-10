@@ -14,13 +14,11 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// “ú–{Œê resources
+// Japanese (Japan) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
-#ifdef _WIN32
 LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
 #pragma code_page(932)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -28,51 +26,97 @@ LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
 //
 
 IDB_REDO                BITMAP                  "redo.bmp"
+
 IDB_UNDO                BITMAP                  "undo.bmp"
+
 IDB_MITER               BITMAP                  "miter.bmp"
+
 IDB_BEVEL               BITMAP                  "bevel.bmp"
+
 IDB_ROUND               BITMAP                  "round.bmp"
+
 IDB_FLATCAP             BITMAP                  "flatcap.bmp"
+
 IDB_ROUNDCAP            BITMAP                  "roundcap.bmp"
+
 IDB_SQUARECAP           BITMAP                  "squarecap.bmp"
+
 IDB_TRIANGLECAP         BITMAP                  "trianglecap.bmp"
+
 IDB_ALIGN_HORZ_LEFT     BITMAP                  "align-horz-left.bmp"
+
 IDB_ALIGN_HORZ_CENTER   BITMAP                  "align-horz-center.bmp"
+
 IDB_ALIGN_HORZ_RIGHT    BITMAP                  "align-horz-right.bmp"
+
 IDB_ALIGN_VERT_TOP      BITMAP                  "align-vert-top.bmp"
+
 IDB_ALIGN_VERT_CENTER   BITMAP                  "align-vert-center.bmp"
+
 IDB_ALIGN_VERT_BOTTOM   BITMAP                  "align-vert-bottom.bmp"
+
 IDB_DIST_HORZ_LEFT      BITMAP                  "dist_horz_left.bmp"
+
 IDB_DIST_HORZ_RIGHT     BITMAP                  "dist_horz_right.bmp"
+
 IDB_DIST_HORZ_CENTER    BITMAP                  "dist_horz_center.bmp"
+
 IDB_DIST_VERT_TOP       BITMAP                  "dist_vert_top.bmp"
+
 IDB_DIST_VERT_CENTER    BITMAP                  "dist_vert_center.bmp"
+
 IDB_DIST_VERT_BOTTOM    BITMAP                  "dist_vert_bottom.bmp"
+
 IDB_TOOLRECT            BITMAP                  "toolrect.bmp"
+
 IDB_TOOLELLIPSE         BITMAP                  "toolellipse.bmp"
+
 IDB_TOOLPOLYGON         BITMAP                  "toolpolygon.bmp"
+
 IDB_TOOLTEXT            BITMAP                  "tooltext.bmp"
+
 IDB_TOOLCURVE           BITMAP                  "toolcurve.bmp"
+
 IDB_TOOLSHAPE           BITMAP                  "toolshape.bmp"
+
 IDB_TOOLLINES           BITMAP                  "toollines.bmp"
+
 IDB_TOOLARROW           BITMAP                  "toolarrow.bmp"
+
 IDB_TOOLHAND            BITMAP                  "toolhand.bmp"
+
 IDB_TOOLGRADATION       BITMAP                  "toolgradation.bmp"
+
 IDB_TOOLTRIMMING        BITMAP                  "tooltrimming.bmp"
+
 IDB_TOOLINSERTIMAGE     BITMAP                  "toolinsertimage.bmp"
+
 IDB_TOOLINSERTNEWKNOB   BITMAP                  "toolinsertnewknob.bmp"
+
 IDB_MIRRORH             BITMAP                  "mirrorh.bmp"
+
 IDB_MIRRORV             BITMAP                  "mirrorv.bmp"
+
 IDB_SHAPEEDIT           BITMAP                  "shapeedit.bmp"
+
 IDB_EAZEL               BITMAP                  "eazel.bmp"
+
 IDB_ZOOM1               BITMAP                  "zoom1.bmp"
+
 IDB_ZOOMIN              BITMAP                  "zoomin.bmp"
+
 IDB_ZOOMOUT             BITMAP                  "zoomout.bmp"
+
 IDB_FILENEW             BITMAP                  "filenew.bmp"
+
 IDB_FILEOPEN            BITMAP                  "fileopen.bmp"
+
 IDB_EXPORTIMAGE         BITMAP                  "exportimage.bmp"
+
 IDB_FILESAVE            BITMAP                  "filesave.bmp"
+
 IDB_COPY                BITMAP                  "copy.bmp"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -82,64 +126,118 @@ IDB_COPY                BITMAP                  "copy.bmp"
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
 IDI_SKINMAN             ICON                    "SkinMan.ico"
+
 IDI_CMDGROUP            ICON                    "cmdgroup.ico"
+
 IDI_CMDUNGROUP          ICON                    "cmdungroup.ico"
+
 IDI_DISPCOLOR           ICON                    "dispcolor.ico"
+
 IDI_DISPPROP            ICON                    "dispprop.ico"
+
 IDI_DISPTREE            ICON                    "disptree.ico"
+
 IDI_DOWN                ICON                    "down.ico"
+
 IDI_GRADATION           ICON                    "gradate.ico"
+
 IDI_GRIDENABLE          ICON                    "gridenable.ico"
+
 IDI_GRIDVISIBLE         ICON                    "gridvisible.ico"
+
 IDI_HANDMOVE            ICON                    "handmove.ico"
+
 IDI_ITEMRECT            ICON                    "itemrect.ico"
+
 IDI_ITEMELLIPSE         ICON                    "itemellipse.ico"
+
 IDI_ITEMPOLYGON         ICON                    "itempolygon.ico"
+
 IDI_ITEMTEXT            ICON                    "itemtext.ico"
+
 IDI_ITEMSHAPE           ICON                    "itemshape.ico"
+
 IDI_ITEMLINES           ICON                    "itemlines.ico"
+
 IDI_ITEMIMAGE           ICON                    "itemimage.ico"
+
 IDI_ITEMGROUP           ICON                    "itemgroup.ico"
+
 IDI_ITEMRECT_S          ICON                    "itemrect_s.ico"
+
 IDI_ITEMELLIPSE_S       ICON                    "itemellipse_s.ico"
+
 IDI_ITEMPOLYGON_S       ICON                    "itempolygon_s.ico"
+
 IDI_ITEMTEXT_S          ICON                    "itemtext_s.ico"
+
 IDI_ITEMSHAPE_S         ICON                    "itemshape_s.ico"
+
 IDI_ITEMLINES_S         ICON                    "itemlines_s.ico"
+
 IDI_ITEMIMAGE_S         ICON                    "itemimage_s.ico"
+
 IDI_ITEMGROUP_S         ICON                    "itemgroup_s.ico"
+
 IDI_LOCK0               ICON                    "lock0.ico"
+
 IDI_LOCK1               ICON                    "lock1.ico"
+
 IDI_PARENT              ICON                    "parent.ico"
+
 IDI_PIPETTE             ICON                    "pipette.ico"
+
 IDI_TRIMMING            ICON                    "trimming.ico"
+
 IDI_UP                  ICON                    "up.ico"
+
 IDI_UPDOWN              ICON                    "updown.ico"
+
 IDI_VISIBLE0            ICON                    "visible0.ico"
+
 IDI_VISIBLE1            ICON                    "visible1.ico"
+
 IDI_VISIBLESOLO0        ICON                    "visiblesolo0.ico"
+
 IDI_VISIBLESOLO1        ICON                    "visiblesolo1.ico"
+
 IDI_ZOOM1               ICON                    "zoom1.ico"
+
 IDI_ZOOMIN              ICON                    "zoomin.ico"
+
 IDI_ZOOMOUT             ICON                    "zoomout.ico"
+
 IDI_NOFILE              ICON                    "icon1.ico"
+
 IDI_ITEMRECT_H          ICON                    "ico00001.ico"
+
 IDI_ITEMLINES_H         ICON                    "itemline.ico"
+
 IDI_ITEMELLIPSE_H       ICON                    "itemelli.ico"
+
 IDI_ITEMGROUP_H         ICON                    "itemgrou.ico"
+
 IDI_ITEMIMAGE_H         ICON                    "itemimag.ico"
+
 IDI_ITEMPOLYGON_H       ICON                    "itempoly.ico"
+
 IDI_ITEMSHAPE_H         ICON                    "itemshap.ico"
+
 IDI_ITEMTEXT_H          ICON                    "ico00002.ico"
+
 IDI_SMALL               ICON                    "ico00003.ico"
+
 IDI_COPY                ICON                    "ico00004.ico"
+
+IDI_ALIGNCENTER         ICON                    "aligncenter.ico"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
 // Menu
 //
 
-IDC_SKINMAN MENU 
+IDC_SKINMAN MENU
 BEGIN
     POPUP "&File"
     BEGIN
@@ -204,6 +302,7 @@ BEGIN
             MENUITEM "Refresh Images/Knobs",        ID_PRIMITIVE_REFRESH
             MENUITEM "Extract Images/Knobs to File", ID_PRIMITIVE_EXTRACTFILE
             MENUITEM SEPARATOR
+            MENUITEM "Align Center\tF3",            ID_PRIMITIVE_ALIGNCENTER
             POPUP "Align"
             BEGIN
                 MENUITEM "Align Horz Left",             ID_PRIMITIVE_ALIGNHORZL
@@ -325,6 +424,7 @@ BEGIN
     CONTROL         "DT",IDC_DISPTREE,"Button",BS_AUTOCHECKBOX | BS_ICON | BS_PUSHLIKE | WS_TABSTOP,210,3,18,18
     CONTROL         "DP",IDC_DISPPROP,"Button",BS_AUTOCHECKBOX | BS_ICON | BS_PUSHLIKE | WS_TABSTOP,228,3,18,18
     CONTROL         "DC",IDC_DISPCOLOR,"Button",BS_AUTOCHECKBOX | BS_ICON | BS_PUSHLIKE | WS_TABSTOP,246,3,18,18
+    PUSHBUTTON      "AC",IDC_ALIGNCENTER,270,3,18,18,BS_ICON
 END
 
 IDD_COLOR DIALOGEX 0, 0, 178, 177
@@ -1795,7 +1895,7 @@ END
 // Accelerator
 //
 
-IDC_SKINMAN ACCELERATORS 
+IDC_SKINMAN ACCELERATORS
 BEGIN
     VK_F7,          ID_DISPLAY_COLOR,       VIRTKEY, NOINVERT
     VK_F6,          ID_DISPLAY_PROPERTIES,  VIRTKEY, NOINVERT
@@ -1805,13 +1905,14 @@ BEGIN
     "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
     "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
     "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
-    "C",            ID_PRIMITIVE_COPYPRIMITIVE, VIRTKEY, CONTROL, NOINVERT
-    "X",            ID_PRIMITIVE_CUTPRIMITIVE, VIRTKEY, CONTROL, NOINVERT
-    "V",            ID_PRIMITIVE_PASTEPRIMITIVE, VIRTKEY, CONTROL, NOINVERT
-    VK_F2,          ID_PRIMITIVE_RENAME,    VIRTKEY, NOINVERT
     "/",            ID_HELP_ABOUT,          ASCII,  ALT, NOINVERT
     "?",            ID_HELP_ABOUT,          ASCII,  ALT, NOINVERT
+    "C",            ID_PRIMITIVE_COPYPRIMITIVE, VIRTKEY, CONTROL, NOINVERT
+    "X",            ID_PRIMITIVE_CUTPRIMITIVE, VIRTKEY, CONTROL, NOINVERT
     VK_F1,          ID_PRIMITIVE_MOVETOTOPMOST, VIRTKEY, NOINVERT
+    "V",            ID_PRIMITIVE_PASTEPRIMITIVE, VIRTKEY, CONTROL, NOINVERT
+    VK_F2,          ID_PRIMITIVE_RENAME,    VIRTKEY, NOINVERT
+    VK_F3,          ID_PRIMITIVE_ALIGNCENTER, VIRTKEY, NOINVERT
 END
 
 
@@ -1821,25 +1922,45 @@ END
 //
 
 IDC_CURSORARROW         CURSOR                  "curarrow.cur"
+
 IDC_CURSORELLIPSE       CURSOR                  "curellipse.cur"
+
 IDC_CURSORGRADATION     CURSOR                  "curgradate.cur"
+
 IDC_CURSORHAND          CURSOR                  "curhand.cur"
+
 IDC_CURSORMOVE          CURSOR                  "curmove.cur"
+
 IDC_CURSORNESW          CURSOR                  "curnesw.cur"
+
 IDC_CURSORNWSE          CURSOR                  "curnwse.cur"
+
 IDC_CURSORPIPETTE       CURSOR                  "curpipette.cur"
+
 IDC_CURSORPOLYGON       CURSOR                  "curpolygon.cur"
+
 IDC_CURSORRECT          CURSOR                  "currect.cur"
+
 IDC_CURSORSHAPECLOSE    CURSOR                  "curshapeclose.cur"
+
 IDC_CURSORSHAPEEDIT     CURSOR                  "curshapeedit.cur"
+
 IDC_CURSORTEXT          CURSOR                  "curtext.cur"
+
 IDC_CURSORTRIMMING      CURSOR                  "trimming.cur"
+
 IDC_CURSORLINES         CURSOR                  "curlines.cur"
+
 IDC_CURSORARROWPLUS     CURSOR                  "cursorarrowplus.cur"
+
 IDC_CURSORSHAPEPLUS     CURSOR                  "cursorsh.cur"
+
 IDC_CURSORCURVEPLUS     CURSOR                  "cur00001.cur"
+
 IDC_CURSORCURVEEDIT     CURSOR                  "cur00002.cur"
+
 IDC_CURSORCURVECLOSE    CURSOR                  "cur00003.cur"
+
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -1873,12 +1994,16 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_CANVASSIZE, DIALOG
     BEGIN
         RIGHTMARGIN, 228
         BOTTOMMARGIN, 83
+    END
+
+    IDD_CMDBAR, DIALOG
+    BEGIN
     END
 
     IDD_PNGOPTION, DIALOG
@@ -1963,20 +2088,31 @@ END
 
 /////////////////////////////////////////////////////////////////////////////
 //
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_CMDBAR AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_APP_TITLE           "SkinMan"
 END
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDC_SKINMAN             "SKINMAN"
 END
 
-#endif    // “ú–{Œê resources
+#endif    // Japanese (Japan) resources
 /////////////////////////////////////////////////////////////////////////////
 
 

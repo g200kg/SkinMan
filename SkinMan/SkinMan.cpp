@@ -571,6 +571,7 @@ const int MSG_REDO=(int)L"Redo (Ctrl-Y)";
 const int MSG_ZOOMOUT=(int)L"Zoom Out (-)";
 const int MSG_ZOOM1=(int)L"Zoom 1:1 (1)";
 const int MSG_ZOOMIN=(int)L"Zoom In (+)";
+const int MSG_ALIGNCENTER=(int) L"Align Center (F3)";
 const int MSG_GRIDVISIBLE=(int)L"Grid Visible (#)";
 const int MSG_GRIDENABLE=(int)L"Grid Enable (Alt for disable)";
 const int MSG_DISPLAYTREE=(int)L"Display Tree Window (F5)";
@@ -783,6 +784,7 @@ struct tag_msgtab {
 	L"ToolTipGridVisible",0,MSG_GRIDVISIBLE,
 	L"ToolTipGridEnable",0,MSG_GRIDENABLE,
 	L"ToolTipDisplayTree",0,MSG_DISPLAYTREE,
+	L"ToolTipAlignCenter",0,MSG_ALIGNCENTER,
 	L"ToolTipDisplayProp",0,MSG_DISPLAYPROP,
 	L"ToolTipDisplayColor",0,MSG_DISPLAYCOLOR,
 	L"ToolTipArrowTool",0,MSG_ARROWTOOL,
@@ -2568,7 +2570,7 @@ public:
 	HWND hwndParent;
 	HWND hwnd;
 	HICON hiconUp,hiconDown,hiconParent;
-	HICON hiconZoomIn,hiconZoom1,hiconZoomOut,hiconGridVisible,hiconGridEnable,hiconDispTree,hiconDispProp,hiconDispColor;
+	HICON hiconAlignCenter,hiconZoomIn,hiconZoom1,hiconZoomOut,hiconGridVisible,hiconGridEnable,hiconDispTree,hiconDispProp,hiconDispColor;
 	CmdBar(HWND hwnd);
 	~CmdBar(void);
 	static LRESULT CALLBACK dlgproc(HWND hwnd,UINT message,WPARAM wparam,LPARAM lparam);
@@ -6129,6 +6131,10 @@ int DoPrimitiveMenu(int id) {
 	case ID_PRIMITIVE_REFRESH:
 		RefreshAll();
 		break;
+	case ID_PRIMITIVE_ALIGNCENTER:
+		theTree->Align(1);
+		theTree->Align(5);
+		break;
 	case ID_PRIMITIVE_ALIGNHORZL:
 		theTree->Align(0);
 		break;
@@ -7175,6 +7181,7 @@ CmdBar::CmdBar(HWND hwndInit) {
 	hiconDispTree=LoadIcon(hinstMain,MAKEINTRESOURCE(IDI_DISPTREE));
 	hiconDispProp=LoadIcon(hinstMain,MAKEINTRESOURCE(IDI_DISPPROP));
 	hiconDispColor=LoadIcon(hinstMain,MAKEINTRESOURCE(IDI_DISPCOLOR));
+	hiconAlignCenter =LoadIcon(hinstMain, MAKEINTRESOURCE(IDI_ALIGNCENTER));
 	hwnd=CreateDialogParam(hinstMain,MAKEINTRESOURCE(IDD_CMDBAR),hwndInit,(DLGPROC)dlgproc,(LPARAM)this);
 }
 CmdBar::~CmdBar(void) {
@@ -7222,6 +7229,8 @@ LRESULT CALLBACK CmdBar::dlgproc(HWND hwnd,UINT message,WPARAM wparam,LPARAM lpa
 		new ToolTip(GetDlgItem(hwnd,IDC_DISPPROP),(wchar_t*)theLang->GetID(MSG_DISPLAYPROP));
 		SendDlgItemMessage(hwnd,IDC_DISPCOLOR,BM_SETIMAGE,IMAGE_ICON,(LPARAM)p->hiconDispColor);
 		new ToolTip(GetDlgItem(hwnd,IDC_DISPCOLOR),(wchar_t*)theLang->GetID(MSG_DISPLAYCOLOR));
+		SendDlgItemMessage(hwnd, IDC_ALIGNCENTER, BM_SETIMAGE, IMAGE_ICON, (LPARAM)p->hiconAlignCenter);
+		new ToolTip(GetDlgItem(hwnd, IDC_ALIGNCENTER), (wchar_t*)theLang->GetID(MSG_ALIGNCENTER));
 		CheckButton(hwnd,IDC_GRIDVISIBLE,theScreen->iGridVisible);
 		CheckButton(hwnd,IDC_GRIDENABLE,theScreen->iGridEnable);
 		CheckButton(hwnd,IDC_DISPTREE,true);
@@ -7266,6 +7275,10 @@ LRESULT CALLBACK CmdBar::dlgproc(HWND hwnd,UINT message,WPARAM wparam,LPARAM lpa
 		case IDC_DISPTREE:
 			theTree->Show(IsDlgButtonChecked(hwnd,IDC_DISPTREE));
 			theApp->CheckMenu();
+			break;
+		case IDC_ALIGNCENTER:
+			theTree->Align(1);
+			theTree->Align(5);
 			break;
 		case IDC_DISPPROP:
 			theProp->Show(IsDlgButtonChecked(hwnd,IDC_DISPPROP));

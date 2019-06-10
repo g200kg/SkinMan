@@ -349,6 +349,15 @@
     <Image Include="zoomout1.ico">
       <Filter>リソース ファイル</Filter>
     </Image>
+    <Image Include="ico00005.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="gridenab.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="aligncenter.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
     <None Include="cur00001.cur">

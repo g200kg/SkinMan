@@ -287,6 +287,7 @@
 #define IDC_ZOOMIN                      1460
 #define IDC_ZOOMOUT                     1461
 #define IDC_ZOOM1                       1462
+#define IDC_ALIGNCENTER                 1463
 #define IDC_SHADOWCOLOR                 1500
 #define IDC_SHADOWDIRENABLE             1501
 #define IDC_SHADOWDIR                   1502
@@ -587,6 +588,8 @@
 #define IDI_ITEMTEXT_H                  32535
 #define IDI_SKINMAN1                    32536
 #define IDI_SMALL                       32536
+#define IDI_GRIDENABLE1                 32537
+#define IDI_ALIGNCENTER                 32537
 #define ID_FILE_OPEN                    32800
 #define ID_FILE_SAVEAS                  32801
 #define ID_FILE_SAVE                    32802
@@ -684,15 +687,16 @@
 #define ID_PRIMITIVE_EXTRACTFILE        40016
 #define ID_PRIMITIVE_COPYCOODINATE      40017
 #define ID_PRIMITIVE_COPYSIZE           40018
+#define ID_PRIMITIVE_ALIGNCENTER        40019
 #define IDC_STATIC                      -1
 
 // Next default values for new objects
 // 
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
-#define _APS_NEXT_RESOURCE_VALUE        143
-#define _APS_NEXT_COMMAND_VALUE         40019
-#define _APS_NEXT_CONTROL_VALUE         3213
+#define _APS_NEXT_RESOURCE_VALUE        145
+#define _APS_NEXT_COMMAND_VALUE         40025
+#define _APS_NEXT_CONTROL_VALUE         3214
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif
