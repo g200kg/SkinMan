@@ -22,28 +22,29 @@
     <ProjectGuid>{217222A9-B671-47D9-B166-D5024281611E}</ProjectGuid>
     <RootNamespace>SkinMan</RootNamespace>
     <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
     <WholeProgramOptimization>true</WholeProgramOptimization>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
@@ -181,6 +182,7 @@
     <Image Include="align-vert-bottom.bmp" />
     <Image Include="align-vert-center.bmp" />
     <Image Include="align-vert-top.bmp" />
+    <Image Include="aligncenter.ico" />
     <Image Include="bevel.bmp" />
     <Image Include="cmdgroup.ico" />
     <Image Include="cmdungroup.ico" />
@@ -202,6 +204,7 @@
     <Image Include="filesave.bmp" />
     <Image Include="flatcap.bmp" />
     <Image Include="gradate.ico" />
+    <Image Include="gridenab.ico" />
     <Image Include="gridenable.ico" />
     <Image Include="gridvisible.ico" />
     <Image Include="handmove.ico" />
@@ -209,6 +212,7 @@
     <Image Include="ico00002.ico" />
     <Image Include="ico00003.ico" />
     <Image Include="ico00004.ico" />
+    <Image Include="ico00005.ico" />
     <Image Include="icon1.ico" />
     <Image Include="itemelli.ico" />
     <Image Include="itemellipse.ico" />
